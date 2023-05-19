@@ -40,6 +40,7 @@ const Slideshow = () => {
 						<Image
 							className="w-screen"
 							src={each}
+							alt="Slide Image"
 						/>
 						<h1 className="absolute md:top-60 top-24 text-center z-10 md:text-6xl text-4xl bold text-white bg-black w-3/5 p-4">A quality car wash
 							in Norway</h1>
