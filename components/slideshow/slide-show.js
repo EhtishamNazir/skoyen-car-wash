@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 //These are Third party packages for smooth slideshow
 import { Zoom } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
@@ -36,7 +37,7 @@ const Slideshow = () => {
 			<Zoom {...zoomInProperties}>
 				{images.map((each, index) => (
 					<div key={index} className="flex justify-center md:items-center items-start w-screen h-screen relative">
-						<img
+						<Image
 							className="w-screen"
 							src={each}
 						/>
