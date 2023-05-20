@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 //These are Third party packages for smooth slideshow
 import { Zoom } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
@@ -13,6 +12,7 @@ const Slideshow = () => {
 		"images/Image3.jpg",
 		"images/Image4.jpg",
 		"images/Image5.jpg",
+		"images/Image6.jpg",
 	];
 
 	//These are custom properties for zoom effect while slide-show
@@ -23,28 +23,29 @@ const Slideshow = () => {
 		infinite: true,
 		prevArrow: (
 			<div className="ml-10 top-40 md:top-72">
-				<ArrowLeftIcon className="h-8 w-8 text-white cursor-pointer" />
+				<ArrowLeftIcon className="h-8 w-8 text-white cursor-pointer max-[480px]:invisible" />
 			</div>
 		),
 		nextArrow: (
 			<div className="mr-10 top-40 md:top-72">
-				<ArrowRightIcon className="h-8 w-8 text-white cursor-pointer" />
+				<ArrowRightIcon className="h-8 w-8 text-white cursor-pointer max-[480px]:invisible" />
 			</div>
 		),
 	};
 	return (
-		<div className="w-full h-screen">
+		<div className="w-full h-screen max-[480px]:h-2/5 border-4">
 			<Zoom {...zoomInProperties}>
 				{images.map((each, index) => (
-					<div key={index} className="flex justify-center md:items-center items-start w-screen h-screen relative">
-						<Image
+					<div key={index} className="flex justify-center md:items-center items-start w-screen h-screen relative max-[480px]:h-fit">
+						<img
 							className="w-screen"
 							src={each}
 							alt="Slide Image"
 						/>
-						<h1 className="absolute md:top-60 top-24 text-center z-10 md:text-6xl text-4xl bold text-white bg-black w-3/5 p-4">A quality car wash
-							in Norway</h1>
-						<p className="absolute md:top-80 top-40 text-center z-10 md:text-2xl text-xl bold text-white w-3/5">"Looking for a local car wash that offers great results? SQS Carwash in Chorlton, Manchester gets the results you want - come and see for yourself."</p>
+						<div className="w-4/5 absolute top-2/4 text-center max-[480px]:invisible">
+							<h1 className="text-white text-center text-5xl font-bold font-ubuntu">A quality car wash <br /> <span className="font-normal">in Location, Norway</span></h1>
+							<p className="text-white mx-auto mt-4 w-3/5 font-ubuntu">Looking for a local car wash that offers great results? SQS Carwash in Chorlton, Manchester gets the results you want - come and see for yourself.</p>
+						</div>
 					</div>
 				))}
 			</Zoom>
