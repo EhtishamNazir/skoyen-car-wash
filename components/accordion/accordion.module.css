@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css);
+
+.rcAccordionToggle {
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    transition: 0.3s;
+    padding: 20px 20px;
+}
+
+.rcAccordionToggle.active {
+    background-color: #5a8dee;
+}
+
+.rcAccordionToggle.active .rcAccordionIcon {
+    transform: rotate(180deg);
+    color: #fff;
+}
+
+.rcAccordionCard {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.rcAccordionCard:last-child {
+    margin-bottom: 0;
+}
+
+.rcAccordionTitle {
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    margin-bottom: 0;
+    color: #4F4F4F;
+    transition: 0.3s;
+}
+
+.rcAccordionToggle.active .rcAccordionTitle {
+    color: #fff;
+}
+
+.rcAccordionIcon {
+    position: relative;
+    top: 2px;
+    color: #475F7B;
+    transition: 0.35s;
+    font-size: 12px;
+}
+
+.rcAccordionBody {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 15px;
+}
+
+.rcAccordionBody p {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #727E8C;
+}
+
+.rcCollapse {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.35s ease;
+}
+
+.rcCollapse.show {
+    height: auto;
+}
