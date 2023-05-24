@@ -10,10 +10,10 @@ const NavBar = () => {
     const [flyerTwo, setFlyerTwo] = useState(false);
 
     return (
-        <>
+        <Fragment>
             <div className="bg-white w-11/12 mx-auto">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6">
-                    <div className="flex justify-between items-center border-b-2 border-gray-100 py-2 md:justify-start md:space-x-10">
+                    <div className="flex justify-between items-center border-b-2 border-gray-100 py-2 md:justify-start md:space-x-10 max-[768px]:py-4">
                         <div className="flex justify-start lg:w-0 lg:flex-1">
                             <Link href="/">
                                 <span className="sr-only">Workflow</span>
@@ -350,24 +350,12 @@ const NavBar = () => {
                         </div>
                     </div>
                 </div>
-                {/*
-      Mobile menu, show/hide based on mobile menu state.
-  
-      Entering: "duration-200 ease-out"
-        From: ""
-        To: ""
-      Leaving: "duration-100 ease-in"
-        From: "opacity-100 scale-100"
-        To: "opacity-0 scale-95"
-    */}
 
-                <div
-                    className={
-                        open
-                            ? "opacity-100 scale-100 transition ease-out duration-200 absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-50"
-                            : "opacity-0 scale-95 absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
-                    }
-                >
+                <div className={
+                    open
+                        ? "opacity-100 scale-100 transition ease-out duration-200 absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-50"
+                        : "opacity-0 scale-95 absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+                }>
                     <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
                         <div className="pt-5 pb-6 px-5">
                             <div className="flex items-center justify-between">
@@ -598,7 +586,7 @@ const NavBar = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </Fragment>
     );
 };
 

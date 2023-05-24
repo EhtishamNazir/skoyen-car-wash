@@ -1,5 +1,18 @@
 .servicesItems .servicesItem {
   width: 30%;
+  margin-bottom: 30px;
+}
+
+
+/* About Section Styles */
+.about .aboutImage,
+.about .aboutText {
+  width: 50%;
+}
+
+/* FAQ Section Styles */
+.faqItem {
+  width: 40%;
 }
 
 /* Cta Styles */
@@ -39,5 +52,48 @@
   .servicesItems .servicesItem {
     width: 100%;
     margin-bottom: 20px;
+  }
+
+  .about .aboutImage,
+  .about .aboutText {
+    width: 100%;
+  }
+
+  .about .aboutText {
+    padding: 50px 20px;
+  }
+
+  .faqItem {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0 10px;
+  }
+
+  .cta {
+    height: 500px;
+  }
+
+  .cta .overlay {
+    height: 500px;
+  }
+}
+
+@media(max-width: 768px) and (min-width: 481px) {
+  .servicesItems .servicesItem {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+
+  .about .aboutImage,
+  .about .aboutText {
+    width: 100%;
+  }
+
+  .about .aboutText {
+    padding: 50px 20px;
+  }
+
+  .faqItem {
+    width: 45%;
   }
 }
