@@ -3,7 +3,7 @@ import nodemailer from 'nodemailer';
 
 export default async function handler(req, res) {
     if (req.method === 'POST') {
-        const { name, email, phone, model, color, maker, sName, date, time, extras, notes } = req.body;
+        const { cName, email, phone, model, color, maker, sName, date, time, extras, notes } = req.body;
 
         // Connect to MongoDB
         const client = await MongoClient.connect(process.env.MONGODB_URI);
@@ -11,7 +11,7 @@ export default async function handler(req, res) {
 
         // Insert the form data into the collection
         await db.collection('bookings').insertOne({
-            name,
+            cName,
             email,
             phone,
             model,

@@ -6,8 +6,8 @@ import { useRouter } from "next/router";
 
 import classes from './service.module.css';
 
-function ServiceDetailPage(props) {
-    const [name, setName] = useState('');
+export default function ServiceDetailPage(props) {
+    const [cName, setCName] = useState('');
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
     const [model, setModel] = useState('');
@@ -21,10 +21,11 @@ function ServiceDetailPage(props) {
     const router = useRouter();
 
     const { loadedService } = props;
-    const sName = loadedService.name;
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+
+        const sName = loadedService.name;
 
         // Send the form data to the server
         const response = await fetch('/api/bookings', {
@@ -32,7 +33,7 @@ function ServiceDetailPage(props) {
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ name, email, phone, model, color, maker, sName, date, time, extras, notes }),
+            body: JSON.stringify({ cName, email, phone, model, color, maker, sName, date, time, extras, notes }),
         });
 
         if (response.ok) {
@@ -40,7 +41,7 @@ function ServiceDetailPage(props) {
             console.log('Form submitted successfully!');
 
             // Reset the form fields
-            setName('');
+            setCName('');
             setEmail('');
             setPhone('');
             setModel('');
@@ -69,12 +70,12 @@ function ServiceDetailPage(props) {
             <div className="w-[48%] max-[480px]:w-full max-[480px]:mb-4 ">
                 <h1 className="text-3xl text-red-600 font-bold">{loadedService.name}</h1>
                 {loadedService.desc.length === 0 ? <ul className="my-3 text-slate-700 list-disc list-inside">
-                    {loadedService.points.map((point) => (<li>{point}</li>))}
+                    {loadedService.points.map((point) => (<li key={point}>{point}</li>))}
                 </ul> : <p className="my-3 text-slate-700">{loadedService.desc}</p>}
                 <img src={loadedService.image} />
                 <h1 className="text-3xl text-red-600 font-bold mt-3">Pris</h1>
                 <ul className="list-disc list-inside my-3 text-slate-700">
-                    {loadedService.price.map(price => (<li>{price}</li>))}
+                    {loadedService.price.map(price => (<li key={price}>{price}</li>))}
                 </ul>
             </div>
             <div className="w-[48%] max-[480px]:w-full">
@@ -82,8 +83,8 @@ function ServiceDetailPage(props) {
                     <h1 className="text-3xl text-center mb-4 text-red-600 font-bold">Bestill {loadedService.name}</h1>
                     <div className="mb-3">
                         <label className="block text-lg mb-1">Name:</label>
-                        <input type="text" className="w-full border border-slate-500 rounded px-2 py-1 outline-none z-50" value={name}
-                            onChange={(e) => setName(e.target.value)} required />
+                        <input type="text" className="w-full border border-slate-500 rounded px-2 py-1 outline-none z-50" value={cName}
+                            onChange={(e) => setCName(e.target.value)} required />
                     </div>
                     <div className="mb-3">
                         <label className="block text-lg mb-1">Email:</label>
@@ -112,10 +113,10 @@ function ServiceDetailPage(props) {
                                 onChange={(e) => setMaker(e.target.value)} required />
                         </div>
                     </div>
-                    <div className="mb-3">
+                    {/* <div className="mb-3">
                         <label className="block text-lg mb-1">Service Required:</label>
-                        <input type="text" className="w-full border border-slate-500 rounded px-2 py-1 outline-none" value={loadedService.name} required />
-                    </div>
+                        <input type="text" className="w-full border border-slate-500 rounded px-2 py-1 outline-none" value={sName} required />
+                    </div> */}
                     <div className="mb-3">
                         <label className="block text-lg mb-1">Date:</label>
                         <input type="date" className="w-full border border-slate-500 rounded px-2 py-1 outline-none" value={date}
@@ -185,5 +186,3 @@ export async function getStaticPaths() {
         // fallback: 'blocking'
     }
 }
-
-export default ServiceDetailPage;
