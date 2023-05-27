@@ -37,6 +37,7 @@ export default function HomePage(props) {
       setEmail('');
       setPhone('');
       setMessage('');
+      alert("Form data submitted successfully!")
     } else {
       // Error submitting the form
       console.error('Error submitting form data');
@@ -55,7 +56,9 @@ export default function HomePage(props) {
             <img src={service.image} />
             <div className="services-item-text px-4 py-6">
               <h3 className="text-center text-2xl font-bold text-red-600 mb-2">{service.name}</h3>
-              <p className="text-center">{service.desc}</p>
+              {service.desc.length === 0 ? <ul className='text-center'>
+                {service.points.slice(0, 3).map((point) => (<li>{point}</li>))}
+              </ul> : <p className="text-center">{service.desc.substring(0, 100)}</p>}
               <p className="text-center mt-6">
                 <Link href={`/services/${service.id}`} className="bg-red-600 py-3 px-8 text-white rounded">Learn More</Link>
               </p>
@@ -116,7 +119,7 @@ export default function HomePage(props) {
             <div className="w-11/12 max-[480px]:w-full">
               <label className="block mb-2">Name:</label>
               <input className="w-full border border-slate-500 p-2 outline-0" value={name}
-                onChange={(e) => setName(e.target.value)} />
+                onChange={(e) => setName(e.target.value)} required />
             </div>
           </div>
           <div className="w-2/6 max-[480px]:w-full">
@@ -124,7 +127,7 @@ export default function HomePage(props) {
               <label className="block mb-2">Email:</label>
               <input className="w-full border border-slate-500 p-2 outline-0" type="email"
                 value={email}
-                onChange={(e) => setEmail(e.target.value)} />
+                onChange={(e) => setEmail(e.target.value)} required />
             </div>
           </div>
           <div className="w-2/6 max-[480px]:w-full">
@@ -132,14 +135,14 @@ export default function HomePage(props) {
               <label className="block mb-2">Phone:</label>
               <input className="w-full border border-slate-500 p-2 outline-0" type="text"
                 value={phone}
-                onChange={(e) => setPhone(e.target.value)} />
+                onChange={(e) => setPhone(e.target.value)} required />
             </div>
           </div>
         </div>
         <div className="mt-2">
           <label className="block mb-2">Message:</label>
           <textarea className="w-full border border-slate-500 p-2 outline-0" rows="6" value={message}
-            onChange={(e) => setMessage(e.target.value)}>
+            onChange={(e) => setMessage(e.target.value)} required>
 
           </textarea>
         </div>

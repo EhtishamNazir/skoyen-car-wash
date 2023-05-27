@@ -3,68 +3,222 @@
         {
             "id": "s1",
             "name": "FULLSHINE",
-            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-            "image": "/images/full-shine.jpg"
+            "desc": "",
+            "points": [
+                "Utvendig vask",
+                "Innvendig vask",
+                "Motorvask",
+                "Innvendig rens",
+                "Lakkrens",
+                "Polering",
+                "Rens av matter, gummi etc"
+            ],
+            "image": "/images/full-shine.jpg",
+            "price": [
+                "Liten bil fra 6000-",
+                "Mellomstor bil fra 7000",
+                "-Stor bil fra 8000,-"
+            ]
         },
         {
             "id": "s2",
             "name": "UTVENDIG VASK",
-            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-            "image": "/images/utvending-vask.jpg"
+            "desc": "Jevnlig vask og utvendig pleie av bilen er meget viktig. Bilen din møter flere fiender hver eneste dag, nemlig asfaltstøv, veisalt, fuglemøkk, insekter, skitt og annen forurensning.Tenk om det hadde vært deg og du ikke hadde fått dusje og vaske deg ren?",
+            "points": [
+                "Utvendig vask",
+                "Innvendig vask",
+                "Motorvask",
+                "Innvendig rens",
+                "Lakkrens",
+                "Polering",
+                "Rens av matter, gummi etc"
+            ],
+            "image": "/images/utvending-vask.jpg",
+            "price": [
+                "Liten bil fra 6000-",
+                "Mellomstor bil fra 7000",
+                "-Stor bil fra 8000,-"
+            ]
         },
         {
             "id": "s3",
             "name": "INNVENDIG VASK",
-            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-            "image": "/images/invending-vask.jpg"
+            "desc": "Takket være lang erfaring og mye kunnskap utfører vi alle jobber med kvalitet, hvor ingen jobb er for liten eller stor. For at bilen din skal opprettholde et pent utseende og ikke bli nedslitt innvendig er godt stell viktig. Steller du bilen din godt vil det også opprettholde bilens verdi. Hos oss kan du få bilpleie av luksuskvalitet, eller bare ”shine” den opp litt før du skal ut å kjøre igjen.",
+            "points": [
+                "Utvendig vask",
+                "Innvendig vask",
+                "Motorvask",
+                "Innvendig rens",
+                "Lakkrens",
+                "Polering",
+                "Rens av matter, gummi etc"
+            ],
+            "image": "/images/invending-vask.jpg",
+            "price": [
+                "Liten bil fra 6000-",
+                "Mellomstor bil fra 7000",
+                "-Stor bil fra 8000,-"
+            ]
         },
         {
             "id": "s4",
             "name": "LAKKRENS / POLERING / LAKKFORSEGLING",
-            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-            "image": "/images/lakkrens-polering.jpg"
+            "desc": "Når en innvendig vask ikke holder til å få bilen helt ren, bør du vurdere en innvendig rens.Dette består av grundig seterensing, tepperensing og rens av dørtrekk.",
+            "points": [
+                "Utvendig vask",
+                "Innvendig vask",
+                "Motorvask",
+                "Innvendig rens",
+                "Lakkrens",
+                "Polering",
+                "Rens av matter, gummi etc"
+            ],
+            "image": "/images/lakkrens-polering.jpg",
+            "price": [
+                "Liten bil fra 6000-",
+                "Mellomstor bil fra 7000",
+                "-Stor bil fra 8000,-"
+            ]
         },
         {
             "id": "s5",
             "name": "AROMATEK-BEHANDLING",
-            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-            "image": "/images/aromatek-behandling.jpg"
+            "desc": "Skinnseter er godt beskyttet mot væske i utgangspunktet. Dersom du behandler setene vil du få mest mulig beskyttelse også mot slitasje. Impregner skinnsetene før slitasjen oppstår!Vår impregneringsmetode beskytter læret slik at setene fornyes og varer lenger.",
+            "points": [
+                "Utvendig vask",
+                "Innvendig vask",
+                "Motorvask",
+                "Innvendig rens",
+                "Lakkrens",
+                "Polering",
+                "Rens av matter, gummi etc"
+            ],
+            "image": "/images/aromatek-behandling.jpg",
+            "price": [
+                "Liten bil fra 6000-",
+                "Mellomstor bil fra 7000",
+                "-Stor bil fra 8000,-"
+            ]
         },
         {
             "id": "s6",
             "name": "HJULSKIFT",
-            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-            "image": "/images/hjulskift.jpg"
+            "desc": "",
+            "points": [
+                "Utvendig vask",
+                "Innvendig vask",
+                "Motorvask",
+                "Innvendig rens",
+                "Lakkrens",
+                "Polering",
+                "Rens av matter, gummi etc"
+            ],
+            "image": "/images/hjulskift.jpg",
+            "price": [
+                "Liten bil fra 6000-",
+                "Mellomstor bil fra 7000",
+                "-Stor bil fra 8000,-"
+            ]
         },
         {
             "id": "s7",
             "name": "IMPREGNERING AV SKINNSETER",
-            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-            "image": "/images/hjulskift.jpg"
+            "desc": "",
+            "points": [
+                "Utvendig vask",
+                "Innvendig vask",
+                "Motorvask",
+                "Innvendig rens",
+                "Lakkrens",
+                "Polering",
+                "Rens av matter, gummi etc"
+            ],
+            "image": "/images/hjulskift.jpg",
+            "price": [
+                "Liten bil fra 6000-",
+                "Mellomstor bil fra 7000",
+                "-Stor bil fra 8000,-"
+            ]
         },
         {
             "id": "s8",
             "name": "LYKTESLIPING",
-            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-            "image": "/images/hjulskift.jpg"
+            "desc": "",
+            "points": [
+                "Utvendig vask",
+                "Innvendig vask",
+                "Motorvask",
+                "Innvendig rens",
+                "Lakkrens",
+                "Polering",
+                "Rens av matter, gummi etc"
+            ],
+            "image": "/images/hjulskift.jpg",
+            "price": [
+                "Liten bil fra 6000-",
+                "Mellomstor bil fra 7000",
+                "-Stor bil fra 8000,-"
+            ]
         },
         {
             "id": "s9",
             "name": "ANDRE TJENESTER / PRISLISTE",
-            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-            "image": "/images/hjulskift.jpg"
+            "desc": "",
+            "points": [
+                "Utvendig vask",
+                "Innvendig vask",
+                "Motorvask",
+                "Innvendig rens",
+                "Lakkrens",
+                "Polering",
+                "Rens av matter, gummi etc"
+            ],
+            "image": "/images/hjulskift.jpg",
+            "price": [
+                "Liten bil fra 6000-",
+                "Mellomstor bil fra 7000",
+                "-Stor bil fra 8000,-"
+            ]
         },
         {
             "id": "s10",
             "name": "OM OSS",
-            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-            "image": "/images/hjulskift.jpg"
+            "desc": "",
+            "points": [
+                "Utvendig vask",
+                "Innvendig vask",
+                "Motorvask",
+                "Innvendig rens",
+                "Lakkrens",
+                "Polering",
+                "Rens av matter, gummi etc"
+            ],
+            "image": "/images/hjulskift.jpg",
+            "price": [
+                "Liten bil fra 6000-",
+                "Mellomstor bil fra 7000",
+                "-Stor bil fra 8000,-"
+            ]
         },
         {
             "id": "s11",
             "name": "INNVENDIG RENS",
-            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-            "image": "/images/hjulskift.jpg"
+            "desc": "",
+            "points": [
+                "Utvendig vask",
+                "Innvendig vask",
+                "Motorvask",
+                "Innvendig rens",
+                "Lakkrens",
+                "Polering",
+                "Rens av matter, gummi etc"
+            ],
+            "image": "/images/hjulskift.jpg",
+            "price": [
+                "Liten bil fra 6000-",
+                "Mellomstor bil fra 7000",
+                "-Stor bil fra 8000,-"
+            ]
         }
     ]
 }
