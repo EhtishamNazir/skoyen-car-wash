@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react";
+import React, { Fragment, useState } from "react";
 import path from 'path';
 import fs from 'fs/promises';
 import { useRouter } from "next/router";
@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 
 import classes from './service.module.css';
 
-function serviceDetailPage(props) {
+function ServiceDetailPage(props) {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
@@ -186,4 +186,4 @@ export async function getStaticPaths() {
     }
 }
 
-export default serviceDetailPage;
+export default ServiceDetailPage;
