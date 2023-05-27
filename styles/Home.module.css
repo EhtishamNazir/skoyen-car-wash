@@ -1,8 +1,12 @@
+.scrollSmooth {
+  scroll-behavior: smooth;
+}
+
+/* Services Styles */
 .servicesItems .servicesItem {
   width: 30%;
   margin-bottom: 30px;
 }
-
 
 /* About Section Styles */
 .about .aboutImage,
@@ -79,6 +83,7 @@
 }
 
 @media(max-width: 768px) and (min-width: 481px) {
+
   .servicesItems .servicesItem {
     width: 48%;
     margin-bottom: 20px;

@@ -1,12 +1,48 @@
-import { Fragment } from "react";
+import fs from 'fs/promises';
+import path from 'path';
+import { Fragment, useState } from "react";
 import Link from "next/link";
+
 
 import SlideShow from "../components/slideshow/slide-show";
 import classes from '../styles/Home.module.css';
 import Accordion from "../components/accordion/accordion";
 
 
-export default function HomePage() {
+export default function HomePage(props) {
+
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [phone, setPhone] = useState('');
+  const { services } = props;
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    // Send the form data to the server
+    const response = await fetch('/api/contact', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ name, email, phone, message }),
+    });
+
+    if (response.ok) {
+      // Form data successfully submitted
+      console.log('Form submitted successfully!');
+      // Reset the form fields
+      setName('');
+      setEmail('');
+      setPhone('');
+      setMessage('');
+    } else {
+      // Error submitting the form
+      console.error('Error submitting form data');
+    }
+  };
+
   return <Fragment>
     <SlideShow />
 
@@ -14,66 +50,18 @@ export default function HomePage() {
     <section className={`font-ubuntu ${classes.services} + py-12 w-11/12 mx-auto max-[480px]:w-11/12`}>
       <h1 className="font-ubuntu font-bold text-5xl text-center mb-12 text-red-600 max-[480px]:text-4xl">Services</h1>
       <div className={`${classes.servicesItems} flex flex-wrap justify-between`}>
-        <div className={`${classes.servicesItem} border-2 rounded-lg`}>
-          <img src="/images/full-shine.jpg" />
-          <div className="services-item-text px-4 py-6">
-            <h3 className="text-center text-2xl font-bold text-red-600 mb-2">Full Shine</h3>
-            <p className="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. </p>
-            <p className="text-center mt-6">
-              <Link href="#" className="bg-red-600 py-3 px-8 text-white rounded">Learn More</Link>
-            </p>
+        {services.slice(0, 6).map(service => (
+          <div className={`${classes.servicesItem} border-2 rounded-lg`} key={service.id}>
+            <img src={service.image} />
+            <div className="services-item-text px-4 py-6">
+              <h3 className="text-center text-2xl font-bold text-red-600 mb-2">{service.name}</h3>
+              <p className="text-center">{service.desc}</p>
+              <p className="text-center mt-6">
+                <Link href={`/services/${service.id}`} className="bg-red-600 py-3 px-8 text-white rounded">Learn More</Link>
+              </p>
+            </div>
           </div>
-        </div>
-        <div className={`${classes.servicesItem} border-2 rounded-lg`}>
-          <img src="/images/utvending-vask.jpg" />
-          <div className="services-item-text px-4 py-6">
-            <h3 className="text-center text-2xl font-bold text-red-600 mb-2">Utvending Vask</h3>
-            <p className="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. </p>
-            <p className="text-center mt-6">
-              <Link href="#" className="bg-red-600 py-3 px-8 text-white rounded">Learn More</Link>
-            </p>
-          </div>
-        </div>
-        <div className={`${classes.servicesItem} border-2 rounded-lg`}>
-          <img src="/images/invending-vask.jpg" />
-          <div className="services-item-text px-4 py-6">
-            <h3 className="text-center text-2xl font-bold text-red-600 mb-2">Innvending Vask</h3>
-            <p className="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            <p className="text-center mt-6">
-              <Link href="#" className="bg-red-600 py-3 px-8 text-white rounded">Learn More</Link>
-            </p>
-          </div>
-        </div>
-        <div className={`${classes.servicesItem} border-2 rounded-lg`}>
-          <img src="/images/lakkrens-polering.jpg" />
-          <div className="services-item-text px-4 py-6">
-            <h3 className="text-center text-2xl font-bold text-red-600 mb-2">Lakkrens Polering</h3>
-            <p className="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. </p>
-            <p className="text-center mt-6">
-              <Link href="#" className="bg-red-600 py-3 px-8 text-white rounded">Learn More</Link>
-            </p>
-          </div>
-        </div>
-        <div className={`${classes.servicesItem} border-2 rounded-lg`}>
-          <img src="/images/aromatek-behandling.jpg" />
-          <div className="services-item-text px-4 py-6">
-            <h3 className="text-center text-2xl font-bold text-red-600 mb-2">Aromatek Behandling</h3>
-            <p className="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. </p>
-            <p className="text-center mt-6">
-              <Link href="#" className="bg-red-600 py-3 px-8 text-white rounded">Learn More</Link>
-            </p>
-          </div>
-        </div>
-        <div className={`${classes.servicesItem} border-2 rounded-lg`}>
-          <img src="/images/hjulskift.jpg" />
-          <div className="services-item-text px-4 py-6">
-            <h3 className="text-center text-2xl font-bold text-red-600 mb-2">Hjulskift</h3>
-            <p className="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            <p className="text-center mt-6">
-              <Link href="#" className="bg-red-600 py-3 px-8 text-white rounded">Learn More</Link>
-            </p>
-          </div>
-        </div>
+        ))}
       </div>
 
     </section>
@@ -121,38 +109,73 @@ export default function HomePage() {
     </section>
 
     {/* Contact Us */}
-    <section className="py-12">
-      <form className="w-4/5 mx-auto max-[768px]:w-11/12">
+    <section className="py-12" id='contact'>
+      <form className="w-4/5 mx-auto max-[768px]:w-11/12" onSubmit={handleSubmit}>
         <div className="flex flex-wrap justify-between">
           <div className="w-2/6 max-[480px]:w-full">
             <div className="w-11/12 max-[480px]:w-full">
               <label className="block mb-2">Name:</label>
-              <input className="w-full border border-slate-500 p-2 outline-0" />
+              <input className="w-full border border-slate-500 p-2 outline-0" value={name}
+                onChange={(e) => setName(e.target.value)} />
             </div>
           </div>
           <div className="w-2/6 max-[480px]:w-full">
             <div className="w-11/12 max-[480px]:w-full">
               <label className="block mb-2">Email:</label>
-              <input className="w-full border border-slate-500 p-2 outline-0" />
+              <input className="w-full border border-slate-500 p-2 outline-0" type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)} />
             </div>
           </div>
           <div className="w-2/6 max-[480px]:w-full">
             <div className="w-full">
               <label className="block mb-2">Phone:</label>
-              <input className="w-full border border-slate-500 p-2 outline-0" />
+              <input className="w-full border border-slate-500 p-2 outline-0" type="text"
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)} />
             </div>
           </div>
         </div>
         <div className="mt-2">
           <label className="block mb-2">Message:</label>
-          <textarea className="w-full border border-slate-500 p-2 outline-0" rows="6">
+          <textarea className="w-full border border-slate-500 p-2 outline-0" rows="6" value={message}
+            onChange={(e) => setMessage(e.target.value)}>
 
           </textarea>
         </div>
         <div className="text-right mt-3">
-          <button className="bg-red-600 text-white py-3 px-16">Send enquiry</button>
+          <button className="bg-red-600 text-white py-3 px-16" type='submit'>Send enquiry</button>
         </div>
       </form>
     </section>
   </Fragment>
+}
+
+export async function getStaticProps(context) {
+  const filePath = path.join(process.cwd(), 'data', 'services-data.json');
+  const jsonData = await fs.readFile(filePath);
+  const data = JSON.parse(jsonData);
+
+  // This is used to redirect to another page
+  if (!data) {
+    return {
+      redirect: {
+        destination: '/no-found'
+      }
+    }
+  }
+
+  // This is used to show page not found
+  if (data.services.length === 0) {
+    return {
+      notFound: true
+    }
+  }
+
+  return {
+    props: {
+      services: data.services,
+    },
+    revalidate: 10,
+  }
 }

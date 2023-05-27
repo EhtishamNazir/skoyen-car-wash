@@ -25,8 +25,6 @@ const faqs = [
     }
 ]
 
-
-
 const Accordion = () => {
 
     const [active, setActive] = useState(null);

@@ -1,0 +1,70 @@
+{
+    "services": [
+        {
+            "id": "s1",
+            "name": "FULLSHINE",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "image": "/images/full-shine.jpg"
+        },
+        {
+            "id": "s2",
+            "name": "UTVENDIG VASK",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "image": "/images/utvending-vask.jpg"
+        },
+        {
+            "id": "s3",
+            "name": "INNVENDIG VASK",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "image": "/images/invending-vask.jpg"
+        },
+        {
+            "id": "s4",
+            "name": "LAKKRENS / POLERING / LAKKFORSEGLING",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "image": "/images/lakkrens-polering.jpg"
+        },
+        {
+            "id": "s5",
+            "name": "AROMATEK-BEHANDLING",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "image": "/images/aromatek-behandling.jpg"
+        },
+        {
+            "id": "s6",
+            "name": "HJULSKIFT",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "image": "/images/hjulskift.jpg"
+        },
+        {
+            "id": "s7",
+            "name": "IMPREGNERING AV SKINNSETER",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "image": "/images/hjulskift.jpg"
+        },
+        {
+            "id": "s8",
+            "name": "LYKTESLIPING",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "image": "/images/hjulskift.jpg"
+        },
+        {
+            "id": "s9",
+            "name": "ANDRE TJENESTER / PRISLISTE",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "image": "/images/hjulskift.jpg"
+        },
+        {
+            "id": "s10",
+            "name": "OM OSS",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "image": "/images/hjulskift.jpg"
+        },
+        {
+            "id": "s11",
+            "name": "INNVENDIG RENS",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "image": "/images/hjulskift.jpg"
+        }
+    ]
+}
