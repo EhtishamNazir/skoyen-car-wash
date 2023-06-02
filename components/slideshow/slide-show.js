@@ -10,12 +10,11 @@ import classes from './slide-show.module.css';
 const Slideshow = () => {
 	//Array of Images
 	const images = [
-		"images/Image1.jpg",
-		"images/Image2.jpg",
-		"images/Image3.jpg",
-		"images/Image4.jpg",
-		"images/Image5.jpg",
-		"images/Image6.jpg",
+		"images/Image1.webp",
+		"images/Image2.webp",
+		"images/Image3.webp",
+		"images/Image4.webp",
+		"images/Image5.webp",
 	];
 
 	//These are custom properties for zoom effect while slide-show

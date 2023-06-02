@@ -74,7 +74,7 @@ export default function HomePage(props) {
     <section className={`${classes.about} `}>
       <div className="flex flex-wrap font-ubuntu">
         <div className={`${classes.aboutImage}`}>
-          <Image src="/images/about.jpg" width={0} height={0} alt='About Image' sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+          <Image src="/images/about.webp" width={0} height={0} alt='About Image' sizes="100vw" style={{ width: '100%', height: 'auto' }} />
         </div>
         <div className={`${classes.aboutText} flex flex-wrap justify-center justify-items-center flex-col bg-red-600 px-8`}>
           <h2 className="text-xl text-white font-bold mb-3">Who are Skoyen Car SPA?</h2>
