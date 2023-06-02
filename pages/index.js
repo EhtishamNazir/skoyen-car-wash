@@ -2,6 +2,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import { Fragment, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 
 import SlideShow from "../components/slideshow/slide-show";
@@ -53,7 +54,7 @@ export default function HomePage(props) {
       <div className={`${classes.servicesItems} flex flex-wrap justify-between`}>
         {services.slice(0, 6).map(service => (
           <div className={`${classes.servicesItem} border-2 rounded-lg`} key={service.id}>
-            <img src={service.image} />
+            <Image src={service.image} alt='Service Image' width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             <div className="services-item-text px-4 py-6">
               <h3 className="text-center text-2xl font-bold text-red-600 mb-2">{service.name}</h3>
               {service.desc.length === 0 ? <ul className='text-center'>
@@ -73,7 +74,7 @@ export default function HomePage(props) {
     <section className={`${classes.about} `}>
       <div className="flex flex-wrap font-ubuntu">
         <div className={`${classes.aboutImage}`}>
-          <img src="/images/about.jpg" />
+          <Image src="/images/about.jpg" width={0} height={0} alt='About Image' sizes="100vw" style={{ width: '100%', height: 'auto' }} />
         </div>
         <div className={`${classes.aboutText} flex flex-wrap justify-center justify-items-center flex-col bg-red-600 px-8`}>
           <h2 className="text-xl text-white font-bold mb-3">Who are Skoyen Car SPA?</h2>
@@ -103,7 +104,7 @@ export default function HomePage(props) {
 
     {/* CTA Section */}
     <section class={`${classes.cta}`}>
-      <img src="/images/cta-bg-img.webp" alt="CTA Image" />
+      <Image src="/images/cta-bg-img.webp" alt="CTA Image" width={0} height={0} sizes="100vw" style={{ width: '100%' }} />
       <div class={`${classes.overlay} font-ubuntu flex flex-col justify-center items-center max-[480px]:px-4`}>
         <h3 className="text-3xl text-white font-bold mb-4 max-[480px]:text-2xl">Contact SQS Carwash today</h3>
         <p className="w-4/5 text-white max-[480px]:w-full">If your car isn't quite in the condition it was when you drove it of the dealer's forecourt, maybe it's time to get it hand washed and professionally valeted! Bring it down to SQS Carwash today or give us a call for further information.</p>

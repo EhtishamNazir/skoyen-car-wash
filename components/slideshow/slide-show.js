@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 //These are Third party packages for smooth slideshow
 import { Zoom } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
@@ -39,10 +40,14 @@ const Slideshow = () => {
 			<Zoom {...zoomInProperties}>
 				{images.map((each, index) => (
 					<div key={index} className="flex justify-center md:items-center items-start w-screen h-screen relative max-[1024px]:h-fit">
-						<img
-							className="w-screen"
-							src={each}
+						<Image
+							src={`/${each}`}
 							alt="Slide Image"
+							width={0}
+							height={0}
+							className="w-screen"
+							sizes="100vw"
+							style={{ width: '100%', height: 'auto' }}
 						/>
 						<div className="w-full absolute top-1/3 text-center z-40 max-[768px]:top-1/4 max-[480px]:top-4/6">
 							<h1 className="text-white text-center text-5xl font-bold font-ubuntu max-[480px]:text-3xl">A quality car wash <br /> <span className="font-normal">in Location, Norway</span></h1>

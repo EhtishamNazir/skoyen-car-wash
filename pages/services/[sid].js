@@ -2,6 +2,7 @@ import { Fragment, useState } from "react";
 import path from 'path';
 import fs from 'fs/promises';
 import { useRouter } from "next/router";
+import Image from 'next/image';
 
 
 import classes from './service.module.css';
@@ -72,18 +73,18 @@ export default function ServiceDetailPage(props) {
                 {loadedService.desc.length === 0 ? <ul className="my-3 text-slate-700 list-disc list-inside">
                     {loadedService.points.map((point) => (<li key={point}>{point}</li>))}
                 </ul> : <p className="my-3 text-slate-700">{loadedService.desc}</p>}
-                <img src={loadedService.image} />
+                <Image src={loadedService.image} width={0} height={0} alt='Service Image' sizes="100vw" style={{ width: '100%', height: 'auto' }} />
                 <h1 className="text-3xl text-red-600 font-bold mt-3">Pris</h1>
                 <ul className="list-disc list-inside my-3 text-slate-700">
                     {loadedService.price.map(price => (<li key={price}>{price}</li>))}
                 </ul>
             </div>
-            <div className="w-[48%] max-[480px]:w-full">
+            <div className="w-[48%] max-[480px]:w-full z-40">
                 <form className="w-4/5 mx-auto max-[768px]:w-full" onSubmit={handleSubmit}>
                     <h1 className="text-3xl text-center mb-4 text-red-600 font-bold">Bestill {loadedService.name}</h1>
                     <div className="mb-3">
                         <label className="block text-lg mb-1">Name:</label>
-                        <input type="text" className="w-full border border-slate-500 rounded px-2 py-1 outline-none z-50" value={cName}
+                        <input type="text" className="w-full border border-slate-500 rounded px-2 py-1 outline-none" value={cName}
                             onChange={(e) => setCName(e.target.value)} required />
                     </div>
                     <div className="mb-3">
