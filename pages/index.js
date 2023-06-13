@@ -3,7 +3,7 @@ import path from 'path';
 import { Fragment, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-
+import toast, { Toaster } from 'react-hot-toast';
 
 import SlideShow from "../components/slideshow/slide-show";
 import classes from '../styles/Home.module.css';
@@ -38,10 +38,10 @@ export default function HomePage(props) {
       setEmail('');
       setPhone('');
       setMessage('');
-      alert("Form data submitted successfully!")
+      toast.success("Email Sent to Service Provider");
     } else {
       // Error submitting the form
-      console.error('Error submitting form data');
+      toast.error('Error submitting form data');
     }
   };
 
@@ -77,8 +77,10 @@ export default function HomePage(props) {
           <Image src="/images/about.webp" width={0} height={0} alt='About Image' sizes="100vw" style={{ width: '100%', height: 'auto' }} />
         </div>
         <div className={`${classes.aboutText} flex flex-wrap justify-center justify-items-center flex-col bg-red-600 px-8`}>
-          <h2 className="text-xl text-white font-bold mb-3">Who are Skoyen Car SPA?</h2>
-          <p className="text-white mb-3">SQS - or Super Quick Shine! - are an outstanding car wash that offers a hand car wash service that gets the results every driver wants. We've been keeping cars looking great since 2001, and we've spent a lot of time and money making sure that every member of the team is highly trained and able to offer the service that you and your vehicle deserve.</p>
+          <h2 className="text-xl text-white font-bold mb-3">Who are
+            Skøyen Bilpleie AS?</h2>
+          <p className="text-white mb-3">
+            Skøyen Bilpleie AS - are an outstanding car wash that offers a hand car wash service that gets the results every driver wants. We've been keeping cars looking great since 2001, and we've spent a lot of time and money making sure that every member of the team is highly trained and able to offer the service that you and your vehicle deserve.</p>
           <p className="text-white">Our results are so good that we've had some VIP clients over the years, including footballers Paul Pogba and Jesse Lingard, as well as well-known actors and other celebrities!</p>
         </div>
       </div>
@@ -90,7 +92,7 @@ export default function HomePage(props) {
         <Accordion />
       </div>
       <div className={`${classes.faqItem}`}>
-        <h1 className="font-bold text-2xl mb-4 text-red-600 max-[480px]:text-center">Why choose the SQS team?</h1>
+        <h1 className="font-bold text-2xl mb-4 text-red-600 max-[480px]:text-center">Why choose the Skøyen Bilpleie AS team?</h1>
         <p className="text-normal mb-3">We'd like to think that there are a lot of great reasons to choose us for your vehicle's next valet, but here are just a few of the top reasons we hear from clients:</p>
         <ul className="list-disc list-inside mb-3">
           <li>We offer phenomenal results</li>
@@ -98,7 +100,8 @@ export default function HomePage(props) {
           <li>Our team are easy to deal with</li>
           <li>We're friendly and professional</li>
         </ul>
-        <p>We'd love the chance to show you why people keep coming back to SQS, and hear your opinions. Bring your car to us today for a great car wash and valet.</p>
+        <p>We'd love the chance to show you why people keep coming back to
+          Skøyen Bilpleie AS, and hear your opinions. Bring your car to us today for a great car wash and valet.</p>
       </div>
     </section>
 
@@ -106,9 +109,11 @@ export default function HomePage(props) {
     <section class={`${classes.cta}`}>
       <Image src="/images/cta-bg-img.webp" alt="CTA Image" width={0} height={0} sizes="100vw" style={{ width: '100%' }} />
       <div class={`${classes.overlay} font-ubuntu flex flex-col justify-center items-center max-[480px]:px-4`}>
-        <h3 className="text-3xl text-white font-bold mb-4 max-[480px]:text-2xl">Contact SQS Carwash today</h3>
-        <p className="w-4/5 text-white max-[480px]:w-full">If your car isn't quite in the condition it was when you drove it of the dealer's forecourt, maybe it's time to get it hand washed and professionally valeted! Bring it down to SQS Carwash today or give us a call for further information.</p>
-        <h3 className="text-3xl text-white font-bold mt-4 max-[480px]:text-2xl">Call: <a href="tel:01618600008" className="underline">0161 860 0008</a></h3>
+        <h3 className="text-3xl text-white font-bold mb-4 max-[480px]:text-2xl">Contact
+          Skøyen Bilpleie AS today</h3>
+        <p className="w-4/5 text-white max-[480px]:w-full">If your car isn't quite in the condition it was when you drove it of the dealer's forecourt, maybe it's time to get it hand washed and professionally valeted! Bring it down to
+          Skøyen Bilpleie AS today or give us a call for further information.</p>
+        <h3 className="text-3xl text-white font-bold mt-4 max-[480px]:text-2xl">Call: <a href="tel:01618600008" className="underline">22 44 44 37</a></h3>
       </div>
     </section>
 
@@ -152,6 +157,7 @@ export default function HomePage(props) {
         </div>
       </form>
     </section>
+    <Toaster />
   </Fragment>
 }
 

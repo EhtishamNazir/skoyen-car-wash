@@ -3,7 +3,7 @@ import path from 'path';
 import fs from 'fs/promises';
 import { useRouter } from "next/router";
 import Image from 'next/image';
-
+import toast, { Toaster } from 'react-hot-toast';
 
 import classes from './service.module.css';
 
@@ -52,7 +52,7 @@ export default function ServiceDetailPage(props) {
             setTime('');
             setNotes('');
 
-            alert("Your service has been booked!");
+            toast.success("Service Booked");
 
             router.push('/');
         } else {
@@ -144,6 +144,7 @@ export default function ServiceDetailPage(props) {
                 </form>
             </div>
         </section>
+        <Toaster />
     </Fragment>
 }
 

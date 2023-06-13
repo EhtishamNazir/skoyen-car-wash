@@ -16,16 +16,17 @@ const Footer = () => {
                     </div>
                     <div className="w-1/5 max-[768px]:w-2/5 max-[480px]:w-full max-[480px]:mb-4">
                         <p className="text-center text-white text-lg font-bold mb-1">Phone:
-                            <a href="tel:01618600008" className="underline font-normal ml-2">0161 860 0008</a>
+                            <a href="tel:01618600008" className="underline font-normal ml-2">22 44 44 37</a>
                         </p>
                         <p className="text-center text-white text-lg font-bold mb-1">Email:
-                            <a href="mailto:example@gmail.com" className="underline font-normal ml-2">example@gmail.com</a>
+                            <a href="mailto:post@skoyenbilpleie.no" className="underline font-normal ml-2">post@skoyenbilpleie.no</a>
                         </p>
                     </div>
                     <div className="w-1/5 max-[480px]:w-full max-[480px]:mb-4">
-                        <p className="text-center text-white text-lg">Skoyen Car SPA</p>
-                        <p className="text-center text-white text-lg">302 Barlow Moor Road</p>
-                        <p className="text-center text-white text-lg">M21 8AY</p>
+                        <p className="text-center text-white text-lg">
+                            Skøyen Bilpleie AS</p>
+                        <p className="text-center text-white text-lg">Bygdøy allé 119</p>
+                        <p className="text-center text-white text-lg">0273 Oslo</p>
                     </div>
                     <div className="w-1/5 max-[480px]:w-full">
                         <ul className="text-white text-center">
@@ -36,7 +37,7 @@ const Footer = () => {
                                 <Link href="/gallery" className="hover:text-red-600">Gallery</Link>
                             </li>
                             <li className="mb-1">
-                                <Link href="/contact" className="hover:text-red-600">Contact</Link>
+                                <Link href="/#contact" className="hover:text-red-600">Contact</Link>
                             </li>
                             <li className="mb-1">
                                 <Link href="/signin" className="hover:text-red-600">Sign In</Link>

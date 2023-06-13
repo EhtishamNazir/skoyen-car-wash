@@ -16,7 +16,6 @@ const NavBar = () => {
                     <div className="flex justify-between items-center border-b-2 border-gray-100 py-2 md:justify-start md:space-x-10 max-[768px]:py-4">
                         <div className="flex justify-start lg:w-0 lg:flex-1">
                             <Link href="/">
-                                <span className="sr-only">Workflow</span>
                                 <Image
                                     src="/logo.png"
                                     width={150}
@@ -119,17 +118,17 @@ const NavBar = () => {
                                 >
                                     <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                                         <div className="relative grid gap-6 bg-white px-0 py-6 sm:gap-8 sm:p-8">
-                                            <Link href="/services/s1" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50">FULLSHINE</Link>
-                                            <Link href="/services/s2" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50">UTVENDIG VASK</Link>
-                                            <Link href="/services/s3" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50">INNVENDIG VASK</Link>
-                                            <Link href="/services/s4" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50">LAKKRENS / POLERING / LAKKFORSEGLING</Link>
-                                            <Link href="/services/s5" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50">AROMATEK-BEHANDLING</Link>
-                                            <Link href="/services/s6" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50">HJULSKIFT</Link>
-                                            <Link href="/services/s7" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50">IMPREGNERING AV SKINNSETER</Link>
-                                            <Link href="/services/s8" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50">LYKTESLIPING</Link>
-                                            <Link href="/services/s9" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50">ANDRE TJENESTER / PRISLISTE</Link>
-                                            <Link href="/services/s10" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50">OM OSS</Link>
-                                            <Link href="/services/s11" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50">INNVENDIG RENS</Link>
+                                            <Link href="/services/s1" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50" onClick={() => setFlyer(false)}>FULLSHINE</Link>
+                                            <Link href="/services/s2" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50" onClick={() => setFlyer(false)}>UTVENDIG VASK</Link>
+                                            <Link href="/services/s3" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50" onClick={() => setFlyer(false)}>INNVENDIG VASK</Link>
+                                            <Link href="/services/s4" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50" onClick={() => setFlyer(false)}>LAKKRENS / POLERING / LAKKFORSEGLING</Link>
+                                            <Link href="/services/s5" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50" onClick={() => setFlyer(false)}>AROMATEK-BEHANDLING</Link>
+                                            <Link href="/services/s6" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50" onClick={() => setFlyer(false)}>HJULSKIFT</Link>
+                                            <Link href="/services/s7" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50" onClick={() => setFlyer(false)}>IMPREGNERING AV SKINNSETER</Link>
+                                            <Link href="/services/s8" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50" onClick={() => setFlyer(false)}>LYKTESLIPING</Link>
+                                            <Link href="/services/s9" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50" onClick={() => setFlyer(false)}>ANDRE TJENESTER / PRISLISTE</Link>
+                                            <Link href="/services/s10" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50" onClick={() => setFlyer(false)}>OM OSS</Link>
+                                            <Link href="/services/s11" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50" onClick={() => setFlyer(false)}>INNVENDIG RENS</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -173,12 +172,17 @@ const NavBar = () => {
                     <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
                         <div className="pt-5 pb-6 px-5">
                             <div className="flex items-center justify-between">
-                                <div>
-                                    <img
-                                        className="h-8 w-auto"
-                                        src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                                        alt="Workflow"
-                                    />
+                                <div className="h-8 w-auto">
+                                    <Link href='/' onClick={() => setOpen(false)}>
+                                        <Image
+                                            src="/logo.png"
+                                            width={0}
+                                            height={0}
+                                            alt='Logo'
+                                            sizes="100vw"
+                                            style={{ width: '100%', height: 'auto' }}
+                                        />
+                                    </Link>
                                 </div>
                                 <div className="-mr-2">
                                     <button
@@ -206,19 +210,19 @@ const NavBar = () => {
                                     </button>
                                 </div>
                             </div>
-                            <div className="mt-6">
+                            <div className="mt-10">
                                 <nav className="grid gap-y-8">
-                                    <Link href="/services/s1" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50">FULLSHINE</Link>
-                                    <Link href="/services/s2" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50">UTVENDIG VASK</Link>
-                                    <Link href="/services/s3" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50">INNVENDIG VASK</Link>
-                                    <Link href="/services/s4" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50">LAKKRENS / POLERING / LAKKFORSEGLING</Link>
-                                    <Link href="/services/s5" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50">AROMATEK-BEHANDLING</Link>
-                                    <Link href="/services/s6" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50">HJULSKIFT</Link>
-                                    <Link href="/services/s7" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50">IMPREGNERING AV SKINNSETER</Link>
-                                    <Link href="/services/s8" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50">LYKTESLIPING</Link>
-                                    <Link href="/services/s9" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50">ANDRE TJENESTER / PRISLISTE</Link>
-                                    <Link href="/services/s10" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50">OM OSS</Link>
-                                    <Link href="/services/s11" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50">INNVENDIG RENS</Link>
+                                    <Link href="/services/s1" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50" onClick={() => setOpen(false)}>FULLSHINE</Link>
+                                    <Link href="/services/s2" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50" onClick={() => setOpen(false)}>UTVENDIG VASK</Link>
+                                    <Link href="/services/s3" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50" onClick={() => setOpen(false)}>INNVENDIG VASK</Link>
+                                    <Link href="/services/s4" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50" onClick={() => setOpen(false)}>LAKKRENS / POLERING / LAKKFORSEGLING</Link>
+                                    <Link href="/services/s5" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50" onClick={() => setOpen(false)}>AROMATEK-BEHANDLING</Link>
+                                    <Link href="/services/s6" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50" onClick={() => setOpen(false)}>HJULSKIFT</Link>
+                                    <Link href="/services/s7" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50" onClick={() => setOpen(false)}>IMPREGNERING AV SKINNSETER</Link>
+                                    <Link href="/services/s8" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50" onClick={() => setOpen(false)}>LYKTESLIPING</Link>
+                                    <Link href="/services/s9" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50" onClick={() => setOpen(false)}>ANDRE TJENESTER / PRISLISTE</Link>
+                                    <Link href="/services/s10" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50" onClick={() => setOpen(false)}>OM OSS</Link>
+                                    <Link href="/services/s11" className="-m-3 py-1 px-2 flex items-start rounded-lg hover:bg-gray-50" onClick={() => setOpen(false)}>INNVENDIG RENS</Link>
                                 </nav>
                             </div>
                         </div>
