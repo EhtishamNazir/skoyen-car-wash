@@ -15,10 +15,10 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="w-1/5 max-[768px]:w-2/5 max-[480px]:w-full max-[480px]:mb-4">
-                        <p className="text-center text-white text-lg font-bold mb-1">Phone:
+                        <p className="text-center text-white text-lg font-bold mb-1">Telefon:
                             <a href="tel:01618600008" className="underline font-normal ml-2">22 44 44 37</a>
                         </p>
-                        <p className="text-center text-white text-lg font-bold mb-1">Email:
+                        <p className="text-center text-white text-lg font-bold mb-1">E-post:
                             <a href="mailto:post@skoyenbilpleie.no" className="underline font-normal ml-2">post@skoyenbilpleie.no</a>
                         </p>
                     </div>
@@ -31,13 +31,13 @@ const Footer = () => {
                     <div className="w-1/5 max-[480px]:w-full">
                         <ul className="text-white text-center">
                             <li className="mb-1">
-                                <Link href="/" className="hover:text-red-600">Home</Link>
+                                <Link href="/" className="hover:text-red-600">Hjem</Link>
                             </li>
                             <li className="mb-1">
-                                <Link href="/gallery" className="hover:text-red-600">Gallery</Link>
+                                <Link href="/gallery" className="hover:text-red-600">Galleri</Link>
                             </li>
                             <li className="mb-1">
-                                <Link href="/#contact" className="hover:text-red-600">Contact</Link>
+                                <Link href="/#contact" className="hover:text-red-600">Kontakt</Link>
                             </li>
                             <li className="mb-1">
                                 <Link href="/signin" className="hover:text-red-600">Sign In</Link>
@@ -46,7 +46,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="w-10/12 mx-auto max-[480px]:w-11/12">
-                    <p className="text-white mt-4 text-center max-[480px]:text-justify">© 2023. The content on this website is owned by us and our licensors. Do not copy any content (including images) without our consent.</p>
+                    <p className="text-white mt-4 text-center max-[480px]:text-justify">© 2023. Innholdet på denne nettsiden eies av oss og våre lisensgivere. Ikke kopier noe innhold (inkludert bilder) uten vårt samtykke.</p>
                 </div>
             </section>
         </Fragment>

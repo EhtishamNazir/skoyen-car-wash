@@ -6,22 +6,22 @@ import classes from './accordion.module.css';
 const faqs = [
     {
         id: 1,
-        header: "I'm looking to sell my car - can you help?",
-        text: `We can! As well as washing and valeting vehicles, we also buy used cars - get in touch for more information.`
+        header: "Har du spørsmål om tjenesten vår?",
+        text: `Vi kan! I tillegg til å vaske og betjente kjøretøy kjøper vi også brukte biler - ta kontakt for mer informasjon.`
     },
     {
         id: 2,
-        header: "How long does a valet service take?",
-        text: `For mini-valets, the time required is approximately 25 minutes, but for a full valet service please allow approximately 3 hours.`
+        header: "Hvor lang tid tar en betjent service?",
+        text: `For mini-betjenter er tiden som kreves ca. 25 minutter, men for en full betjent service, vennligst la det ta ca. 3 timer.`
     },
     {
         id: 3,
-        header: "How much does a valet service cost?",
-        text: `This varies, and depends on a number of things:
+        header: "Hvor mye koster en betjent service?",
+        text: `Dette varierer, og avhenger av en rekke ting:
 
-        Vehicle size
-        Level of valet service required
-        Amount of labour involved (very dirty vehicles cost more to valet because they take longer)`
+        Kjøretøystørrelse
+        Nivå på betjent service kreves
+        Mengden arbeidskraft involvert (svært skitne kjøretøy koster mer å betjent fordi de tar lengre tid)`
     }
 ]
 
@@ -42,7 +42,7 @@ const Accordion = () => {
             <div className="mx-auto font-ubuntu">
                 <div className="flex flex-wrap justify-center">
                     <div className="mt-2">
-                        <h1 className="font-bold text-2xl text-center mb-4 text-red-600">Got questions about our service?</h1>
+                        <h1 className="font-bold text-2xl text-center mb-4 text-red-600">Har du spørsmål om tjenesten vår?</h1>
                         {faqs.map((faq, index) => {
                             return (
                                 <AccordionItem key={index} active={active} handleToggle={handleToggle} faq={faq} />

@@ -23,7 +23,7 @@
         {
             "id": "s2",
             "name": "UTVENDIG VASK",
-            "desc": "Jevnlig vask og utvendig pleie av bilen er meget viktig. Bilen din møter flere fiender hver eneste dag, nemlig asfaltstøv, veisalt, fuglemøkk, insekter, skitt og annen forurensning.Tenk om det hadde vært deg og du ikke hadde fått dusje og vaske deg ren?",
+            "desc": "Opplev Ultimate Car Exterior Wash Service: Slipp løs glansen til kjøretøyet ditt med vår grundige og effektive bilvask. Våre dyktige teknikere, førsteklasses produkter og oppmerksomhet på detaljer sikrer et fantastisk, som nytt eksteriør. Bestill time i dag og gjenoppdag den sanne skjønnheten til bilen din.",
             "points": [
                 "Utvendig vask",
                 "Innvendig vask",
@@ -43,7 +43,7 @@
         {
             "id": "s3",
             "name": "INNVENDIG VASK",
-            "desc": "Takket være lang erfaring og mye kunnskap utfører vi alle jobber med kvalitet, hvor ingen jobb er for liten eller stor. For at bilen din skal opprettholde et pent utseende og ikke bli nedslitt innvendig er godt stell viktig. Steller du bilen din godt vil det også opprettholde bilens verdi. Hos oss kan du få bilpleie av luksuskvalitet, eller bare ”shine” den opp litt før du skal ut å kjøre igjen.",
+            "desc": "Unn deg interiørluksus: Opplev vår grundige bilvasketjeneste. Fra feilfrie detaljer til lukteliminering, vi gjenoppretter bilens interiør til perfeksjon. Nyt komforten og renheten til kjøretøyet ditt. Bestill nå og løft kjøreopplevelsen din.",
             "points": [
                 "Utvendig vask",
                 "Innvendig vask",
@@ -63,7 +63,7 @@
         {
             "id": "s4",
             "name": "LAKKRENS / POLERING / LAKKFORSEGLING",
-            "desc": "Når en innvendig vask ikke holder til å få bilen helt ren, bør du vurdere en innvendig rens.Dette består av grundig seterensing, tepperensing og rens av dørtrekk.",
+            "desc": "Slipp løs utstrålingen: Opplev vår transformative service for forbedring av billakkering. Omhyggelig polering, beskyttende tetningsmasse og oppmerksomhet på detaljer får frem bilens sanne glans. Bestill nå og få bilen din til å skinne som aldri før.",
             "points": [
                 "Utvendig vask",
                 "Innvendig vask",
@@ -83,7 +83,7 @@
         {
             "id": "s5",
             "name": "AROMATEK-BEHANDLING",
-            "desc": "Skinnseter er godt beskyttet mot væske i utgangspunktet. Dersom du behandler setene vil du få mest mulig beskyttelse også mot slitasje. Impregner skinnsetene før slitasjen oppstår!Vår impregneringsmetode beskytter læret slik at setene fornyes og varer lenger.",
+            "desc": "Opplev duftopplevelsen: Prøv vår bil Aromatek-behandling. Skap en fortryllende atmosfære i bilen din med våre fengslende dufter. Bestill nå og nyt kjøreturen til det fulle.",
             "points": [
                 "Utvendig vask",
                 "Innvendig vask",
@@ -103,7 +103,7 @@
         {
             "id": "s6",
             "name": "HJULSKIFT",
-            "desc": "",
+            "desc": "Effektiv hjulskifttjeneste for din bil: Velkommen til [Firmanavn]. Vi tilbyr en pålitelig hjulskifttjeneste som er rask og praktisk. Våre erfarne teknikere sørger for trygg og nøyaktig montering av hjulene dine. Spar tid og stol på oss for et problemfritt hjulskifte. Bestill nå og kom raskt tilbake på veien.",
             "points": [
                 "Utvendig vask",
                 "Innvendig vask",
@@ -123,7 +123,7 @@
         {
             "id": "s7",
             "name": "IMPREGNERING AV SKINNSETER",
-            "desc": "",
+            "desc": "Bevar skjønnheten: Prøv vår skinnsete-impregnering. Beskytt dine skinnseter mot smuss, væsker og solskader. Bestill nå for langvarig skinnsetepleie.",
             "points": [
                 "Utvendig vask",
                 "Innvendig vask",
@@ -143,7 +143,7 @@
         {
             "id": "s8",
             "name": "LYKTESLIPING",
-            "desc": "",
+            "desc": "Gjenoppliv billysene: Prøv vår lykteslipingtjeneste. Få klarere og tryggere lys med vår profesjonelle behandling. Bestill nå for forbedret sikt og sikkerhet.",
             "points": [
                 "Utvendig vask",
                 "Innvendig vask",
@@ -163,7 +163,7 @@
         {
             "id": "s9",
             "name": "ANDRE TJENESTER / PRISLISTE",
-            "desc": "",
+            "desc": "Mangfoldige tjenester til konkurransedyktige priser. Velg blant vår prisliste for profesjonelle bilrelaterte tjenester som vask, polering, hjulskift, impregnering og mer. Få kvalitet og verdi for pengene dine hos [Firmanavn]. Kontakt oss i dag for mer informasjon.",
             "points": [
                 "Utvendig vask",
                 "Innvendig vask",

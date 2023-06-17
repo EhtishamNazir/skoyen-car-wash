@@ -62,7 +62,8 @@ const NavBar = () => {
                                 href="/"
                                 className="text-base font-medium text-gray-500 hover:text-gray-900"
                             >
-                                Home
+
+                                Hjem
                             </Link>
                             <div className="relative">
                                 {/* Item active: "text-gray-900", Item inactive: "text-gray-500" */}
@@ -73,7 +74,7 @@ const NavBar = () => {
                     "
                                     onClick={() => (setFlyer(!flyer), setFlyerTwo(false))}
                                 >
-                                    <span>Services</span>
+                                    <span>Tjenester</span>
                                     {/*
                 Heroicon name: solid/chevron-down
   
@@ -138,13 +139,13 @@ const NavBar = () => {
                                 href="/gallery"
                                 className="text-base font-medium text-gray-500 hover:text-gray-900"
                             >
-                                Gallery
+                                Galleri
                             </Link>
                             <Link
                                 href="/#contact"
                                 className="text-base font-medium text-gray-500 hover:text-gray-900"
                             >
-                                Contact
+                                Kontakt
                             </Link>
                         </nav>
                         <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">

@@ -83,28 +83,28 @@ export default function ServiceDetailPage(props) {
                 <form className="w-4/5 mx-auto max-[768px]:w-full" onSubmit={handleSubmit}>
                     <h1 className="text-3xl text-center mb-4 text-red-600 font-bold">Bestill {loadedService.name}</h1>
                     <div className="mb-3">
-                        <label className="block text-lg mb-1">Name:</label>
+                        <label className="block text-lg mb-1">Navn:</label>
                         <input type="text" className="w-full border border-slate-500 rounded px-2 py-1 outline-none" value={cName}
                             onChange={(e) => setCName(e.target.value)} required />
                     </div>
                     <div className="mb-3">
-                        <label className="block text-lg mb-1">Email:</label>
+                        <label className="block text-lg mb-1">E-post:</label>
                         <input type="email" className="w-full border border-slate-500 rounded px-2 py-1 outline-none" value={email}
                             onChange={(e) => setEmail(e.target.value)} required />
                     </div>
                     <div className="mb-3">
-                        <label className="block text-lg mb-1">Contact:</label>
+                        <label className="block text-lg mb-1">Kontakt:</label>
                         <input type="phone" className="w-full border border-slate-500 rounded px-2 py-1 outline-none" value={phone}
                             onChange={(e) => setPhone(e.target.value)} required />
                     </div>
                     <div className="mb-3 flex flex-wrap justify-between">
                         <div className="w-[30%]">
-                            <label className="block text-lg mb-1">Model:</label>
+                            <label className="block text-lg mb-1">Modell:</label>
                             <input type="text" className="w-full border border-slate-500 rounded px-2 py-1 outline-none" value={model}
                                 onChange={(e) => setModel(e.target.value)} required />
                         </div>
                         <div className="w-[30%]">
-                            <label className="block text-lg mb-1">Color:</label>
+                            <label className="block text-lg mb-1">Farge:</label>
                             <input type="text" className="w-full border border-slate-500 rounded px-2 py-1 outline-none" value={color}
                                 onChange={(e) => setColor(e.target.value)} required />
                         </div>
@@ -119,27 +119,27 @@ export default function ServiceDetailPage(props) {
                         <input type="text" className="w-full border border-slate-500 rounded px-2 py-1 outline-none" value={sName} required />
                     </div> */}
                     <div className="mb-3">
-                        <label className="block text-lg mb-1">Date:</label>
+                        <label className="block text-lg mb-1">Dato:</label>
                         <input type="date" className="w-full border border-slate-500 rounded px-2 py-1 outline-none" value={date}
                             onChange={(e) => setDate(e.target.value)} required />
                     </div>
                     <div className="mb-3">
-                        <label className="block text-lg mb-1">Time In:</label>
+                        <label className="block text-lg mb-1">Tid inne:</label>
                         <input type="time" className="w-full border border-slate-500 rounded px-2 py-1 outline-none" value={time}
                             onChange={(e) => setTime(e.target.value)} required />
                     </div>
                     <div className="mb-3">
-                        <label className="block text-lg mb-1">Extras:</label>
+                        <label className="block text-lg mb-1">Ekstrautstyr:</label>
                         <input type="text" className="w-full border border-slate-500 rounded px-2 py-1 outline-none" value={extras}
                             onChange={(e) => setExtras(e.target.value)} required />
                     </div>
                     <div className="mb-3">
-                        <label className="block text-lg mb-1">Notes:</label>
+                        <label className="block text-lg mb-1">Notater:</label>
                         <textarea className="w-full border border-slate-500 rounded px-2 py-1 outline-none" value={notes}
                             onChange={(e) => setNotes(e.target.value)} required></textarea>
                     </div>
                     <div className="mb-3">
-                        <button className="w-full py-3 bg-red-600 rounded text-white" type="submit">Book Service</button>
+                        <button className="w-full py-3 bg-red-600 rounded text-white" type="submit">Boktjeneste</button>
                     </div>
                 </form>
             </div>

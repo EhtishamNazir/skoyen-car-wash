@@ -50,7 +50,7 @@ export default function HomePage(props) {
 
     {/* Services */}
     <section className={`font-ubuntu ${classes.services} + py-12 w-11/12 mx-auto max-[480px]:w-11/12`}>
-      <h1 className="font-ubuntu font-bold text-5xl text-center mb-12 text-red-600 max-[480px]:text-4xl">Services</h1>
+      <h1 className="font-ubuntu font-bold text-5xl text-center mb-12 text-red-600 max-[480px]:text-4xl">Tjenester</h1>
       <div className={`${classes.servicesItems} flex flex-wrap justify-between`}>
         {services.slice(0, 6).map(service => (
           <div className={`${classes.servicesItem} border-2 rounded-lg`} key={service.id}>
@@ -61,7 +61,7 @@ export default function HomePage(props) {
                 {service.points.slice(0, 3).map((point) => (<li key={point}>{point}</li>))}
               </ul> : <p className="text-center">{service.desc.substring(0, 100)}</p>}
               <p className="text-center mt-6">
-                <Link href={`/services/${service.id}`} className="bg-red-600 py-3 px-8 text-white rounded">Learn More</Link>
+                <Link href={`/services/${service.id}`} className="bg-red-600 py-3 px-8 text-white rounded">Lære mer</Link>
               </p>
             </div>
           </div>
@@ -77,11 +77,10 @@ export default function HomePage(props) {
           <Image src="/images/about.webp" width={0} height={0} alt='About Image' sizes="100vw" style={{ width: '100%', height: 'auto' }} />
         </div>
         <div className={`${classes.aboutText} flex flex-wrap justify-center justify-items-center flex-col bg-red-600 px-8`}>
-          <h2 className="text-xl text-white font-bold mb-3">Who are
-            Skøyen Bilpleie AS?</h2>
+          <h2 className="text-xl text-white font-bold mb-3">Hvem er Skøyen Bilpleie AS?</h2>
           <p className="text-white mb-3">
-            Skøyen Bilpleie AS - are an outstanding car wash that offers a hand car wash service that gets the results every driver wants. We've been keeping cars looking great since 2001, and we've spent a lot of time and money making sure that every member of the team is highly trained and able to offer the service that you and your vehicle deserve.</p>
-          <p className="text-white">Our results are so good that we've had some VIP clients over the years, including footballers Paul Pogba and Jesse Lingard, as well as well-known actors and other celebrities!</p>
+            Skøyen Bilpleie AS - er en fremragende bilvask som tilbyr en håndvasktjeneste som får resultatene enhver sjåfør ønsker. Vi har holdt bilene flotte siden 2001, og vi har brukt mye tid og penger på å sørge for at hvert medlem av teamet er høyt trent og i stand til å tilby den servicen du og kjøretøyet ditt fortjener.</p>
+          <p className="text-white">Resultatene våre er så gode at vi har hatt noen VIP-kunder gjennom årene, inkludert fotballspillerne Paul Pogba og Jesse Lingard, samt kjente skuespillere og andre kjendiser!</p>
         </div>
       </div>
     </section>
@@ -92,28 +91,26 @@ export default function HomePage(props) {
         <Accordion />
       </div>
       <div className={`${classes.faqItem}`}>
-        <h1 className="font-bold text-2xl mb-4 text-red-600 max-[480px]:text-center">Why choose the Skøyen Bilpleie AS team?</h1>
-        <p className="text-normal mb-3">We'd like to think that there are a lot of great reasons to choose us for your vehicle's next valet, but here are just a few of the top reasons we hear from clients:</p>
+        <h1 className="font-bold text-2xl mb-4 text-red-600 max-[480px]:text-center">Hvorfor velge Skøyen Bilpleie AS-teamet?</h1>
+        <p className="text-normal mb-3">Vi vil gjerne tro at det er mange gode grunner til å velge oss for kjøretøyets neste betjent, men her er bare noen av de viktigste grunnene vi hører fra kunder:</p>
         <ul className="list-disc list-inside mb-3">
-          <li>We offer phenomenal results</li>
-          <li>Our prices are competitive </li>
-          <li>Our team are easy to deal with</li>
-          <li>We're friendly and professional</li>
+          <li>Vi tilbyr fenomenale resultater</li>
+          <li>Våre priser er konkurransedyktige</li>
+          <li>Teamet vårt er enkelt å ha med å gjøre</li>
+          <li>Vi er vennlige og profesjonelle</li>
         </ul>
-        <p>We'd love the chance to show you why people keep coming back to
-          Skøyen Bilpleie AS, and hear your opinions. Bring your car to us today for a great car wash and valet.</p>
+        <p>Vi vil gjerne ha sjansen til å vise deg hvorfor folk stadig vender tilbake til
+          Skøyen Bilpleie AS, og hør dine meninger. Ta med bilen din til oss i dag for en flott bilvask og betjent.</p>
       </div>
     </section>
 
     {/* CTA Section */}
-    <section class={`${classes.cta}`}>
+    <section className={`${classes.cta}`}>
       <Image src="/images/cta-bg-img.webp" alt="CTA Image" width={0} height={0} sizes="100vw" style={{ width: '100%' }} />
-      <div class={`${classes.overlay} font-ubuntu flex flex-col justify-center items-center max-[480px]:px-4`}>
-        <h3 className="text-3xl text-white font-bold mb-4 max-[480px]:text-2xl">Contact
-          Skøyen Bilpleie AS today</h3>
-        <p className="w-4/5 text-white max-[480px]:w-full">If your car isn't quite in the condition it was when you drove it of the dealer's forecourt, maybe it's time to get it hand washed and professionally valeted! Bring it down to
-          Skøyen Bilpleie AS today or give us a call for further information.</p>
-        <h3 className="text-3xl text-white font-bold mt-4 max-[480px]:text-2xl">Call: <a href="tel:01618600008" className="underline">22 44 44 37</a></h3>
+      <div className={`${classes.overlay} font-ubuntu flex flex-col justify-center items-center max-[480px]:px-4`}>
+        <h3 className="text-3xl text-white font-bold mb-4 max-[480px]:text-2xl">Kontakt Skøyen Bilpleie AS i dag</h3>
+        <p className="w-4/5 text-white max-[480px]:w-full">If your car isn't quite in the condition it was when you drove it of the dealer's forecourt, maybe it's time to get it hand washed and professionally valeted! Bring it down to Skøyen Bilpleie AS today or give us a call for further information.</p>
+        <h3 className="text-3xl text-white font-bold mt-4 max-[480px]:text-2xl">Anrop: <a href="tel:01618600008" className="underline">22 44 44 37</a></h3>
       </div>
     </section>
 
@@ -123,14 +120,14 @@ export default function HomePage(props) {
         <div className="flex flex-wrap justify-between">
           <div className="w-2/6 max-[480px]:w-full">
             <div className="w-11/12 max-[480px]:w-full">
-              <label className="block mb-2">Name:</label>
+              <label className="block mb-2">Navn:</label>
               <input className="w-full border border-slate-500 p-2 outline-0" value={name}
                 onChange={(e) => setName(e.target.value)} required />
             </div>
           </div>
           <div className="w-2/6 max-[480px]:w-full">
             <div className="w-11/12 max-[480px]:w-full">
-              <label className="block mb-2">Email:</label>
+              <label className="block mb-2">E-post:</label>
               <input className="w-full border border-slate-500 p-2 outline-0" type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)} required />
@@ -138,7 +135,7 @@ export default function HomePage(props) {
           </div>
           <div className="w-2/6 max-[480px]:w-full">
             <div className="w-full">
-              <label className="block mb-2">Phone:</label>
+              <label className="block mb-2">Telefon:</label>
               <input className="w-full border border-slate-500 p-2 outline-0" type="text"
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)} required />
@@ -146,14 +143,14 @@ export default function HomePage(props) {
           </div>
         </div>
         <div className="mt-2">
-          <label className="block mb-2">Message:</label>
+          <label className="block mb-2">Beskjed:</label>
           <textarea className="w-full border border-slate-500 p-2 outline-0" rows="6" value={message}
             onChange={(e) => setMessage(e.target.value)} required>
 
           </textarea>
         </div>
         <div className="text-right mt-3">
-          <button className="bg-red-600 text-white py-3 px-16" type='submit'>Send enquiry</button>
+          <button className="bg-red-600 text-white py-3 px-16" type='submit'>Send forespørsel</button>
         </div>
       </form>
     </section>
