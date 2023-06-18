@@ -3,16 +3,17 @@
         {
             "id": "s1",
             "name": "FULLSHINE",
-            "desc": "",
+            "descHead": "Gjør bilen din skinnende: Prøv vår Ifullshine-tjeneste",
+            "desc": "Velkommen til Skøyen Bilpleie AS, hvor vi tilbyr en førsteklasses Ifullshine-tjeneste for å gi bilen din en imponerende glans. Vårt erfarne team bruker avanserte teknikker og produkter for å sikre en feilfri finish.",
+            "optHead": "Her er hvorfor vår Ifullshine-tjeneste skiller seg ut:",
             "points": [
-                "Utvendig vask",
-                "Innvendig vask",
-                "Motorvask",
-                "Innvendig rens",
-                "Lakkrens",
-                "Polering",
-                "Rens av matter, gummi etc"
+                "Profesjonell behandling: Våre eksperter er dedikert til å gi bilen din en profesjonell behandling med stor oppmerksomhet på detaljer. Vi tar oss av alt fra vask og polering til voksing og lakkforsegling for å oppnå en fantastisk glans.",
+                "Skreddersydde løsninger: Vi tilpasser behandlingen etter bilens spesifikke behov og tilstanden til lakken. Dette sikrer optimale resultater og en skinnende finish som passer perfekt til din bil.",
+                "Høykvalitetsprodukter: Vi bruker kun høykvalitetsprodukter som er skånsomme mot bilens overflate samtidig som de gir en dyp og varig glans. Dette sikrer at bilen din ser fantastisk ut og er godt beskyttet mot elementene.",
+                "Beskyttelse og holdbarhet: Vår Ifullshine-tjeneste bidrar til å beskytte lakken mot vær, smuss og annen slitasje, samtidig som den gir en strålende glans. Denne beskyttelsen bidrar til å opprettholde bilens verdi og utseende over tid.",
+                "Kundetilfredshet: Vi setter kundetilfredshet høyt og streber etter å levere en førsteklasses tjeneste som overgår forventningene dine. Vi tar oss tid til å lytte til dine behov og ønsker, og sikrer at resultatene oppfyller dine forventninger."
             ],
+            "conclusion": "Gjør bilen din skinnende med vår Ifullshine-tjeneste. Bestill time i dag og la oss gi bilen din den ultimate glansen den fortjener. Stol på Skøyen Bilpleie AS for pålitelig og skreddersydd behandling for å få bilen din til å skinne som ny.",
             "image": "/images/full-shine.webp",
             "price": [
                 "Liten bil fra 6000-",
@@ -23,16 +24,17 @@
         {
             "id": "s2",
             "name": "UTVENDIG VASK",
-            "desc": "Opplev Ultimate Car Exterior Wash Service: Slipp løs glansen til kjøretøyet ditt med vår grundige og effektive bilvask. Våre dyktige teknikere, førsteklasses produkter og oppmerksomhet på detaljer sikrer et fantastisk, som nytt eksteriør. Bestill time i dag og gjenoppdag den sanne skjønnheten til bilen din.",
+            "descHead": "Gjenoppliv glansen: Opplev den ultimate bilvasktjenesten",
+            "desc": "Velkommen til vår fremste bilvasketjeneste, hvor vi bringer tilbake glansen til ditt elskede kjøretøy. Hos Skøyen Bilpleie AS forstår vi at bilen din ikke bare er et transportmiddel; det er et uttrykk for din personlighet og stil. Derfor tilbyr vi en eksepsjonell bilvaskopplevelse som går utover det vanlige. Vårt team av dyktige fagfolk er forpliktet til å gi kjøretøyet ditt den største omsorgen og oppmerksomheten den fortjener. Ved å bruke state-of-the-art teknikker og førsteklasses kvalitetsprodukter, garanterer vi en grundig og grundig utvendig rengjøring som vil gjøre bilen din så god som ny.",
+            "optHead": "Her er hva du kan forvente når du velger vår utvendige bilvask:",
             "points": [
-                "Utvendig vask",
-                "Innvendig vask",
-                "Motorvask",
-                "Innvendig rens",
-                "Lakkrens",
-                "Polering",
-                "Rens av matter, gummi etc"
+                "Uovertruffen presisjon: Våre høyt kvalifiserte teknikere rengjør omhyggelig hver tomme av kjøretøyets eksteriør, og sikrer at ingen smuss, skitt eller gjenstridige flekker blir igjen. Vi legger vekt på de minste detaljene, og lar ingen stein stå uvendt i vår jakt på perfeksjon.",
+                "Premiumprodukter: Vi tror på å bruke kun de beste rengjøringsproduktene av høy kvalitet som er trygge for kjøretøyets overflate. Våre miljøvennlige løsninger er spesielt utviklet for å fjerne smuss og forurensninger effektivt, samtidig som de beskytter lakken og bevarer glansen til bilens eksteriør.",
+                "Omfattende pleie: Vår bilvasktjeneste er utviklet for å dekke alle aspekter av kjøretøyets eksteriør, inkludert karosseriet, vinduene, hjulene, dekkene og trim. Vi går utover for å gjenopprette glansen og vise frem den sanne skjønnheten til bilen din, slik at den ser fantastisk ut fra alle vinkler.",
+                "Tidseffektivitet: Vi forstår at tiden din er verdifull. Derfor streber vi etter å levere en rask og effektiv service uten å gå på akkord med kvaliteten. Vårt dyktige team jobber iherdig for å fullføre vaskeprosessen raskt, slik at du kan komme deg tilbake på veien med en skinnende ren bil på kort tid.",
+                "Kundetilfredshet: Din tilfredshet er vår høyeste prioritet. Vi setter vår ære i å yte eksepsjonell kundeservice og sikre at din bilvaskopplevelse overgår dine forventninger. Vi setter pris på tilbakemeldingene dine og streber kontinuerlig etter å forbedre tjenestene våre for å møte dine behov."
             ],
+            "conclusion": "Gjenoppliv glansen av bilens eksteriør med vår enestående bilvasktjeneste. Bestill en time i dag og unn bilen din den pleien den fortjener. Stol på Skøyen Bilpleie AS for en uovertruffen bilvaskopplevelse som vil gjøre deg overrasket over transformasjonen av kjøretøyets utseende.",
             "image": "/images/utvending-vask.webp",
             "price": [
                 "Liten bil fra 6000-",
@@ -43,16 +45,17 @@
         {
             "id": "s3",
             "name": "INNVENDIG VASK",
-            "desc": "Unn deg interiørluksus: Opplev vår grundige bilvasketjeneste. Fra feilfrie detaljer til lukteliminering, vi gjenoppretter bilens interiør til perfeksjon. Nyt komforten og renheten til kjøretøyet ditt. Bestill nå og løft kjøreopplevelsen din.",
+            "descHead": "Unn deg interiørluksus: Oppdag vår bilvasketjeneste",
+            "desc": "Velkommen til Skøyen Bilpleie AS, hvor vi spesialiserer oss på å revitalisere hjertet av kjøretøyet ditt – interiøret. Vi forstår at et rent og godt vedlikeholdt interiør ikke bare forbedrer kjøreopplevelsen din, men også gjenspeiler din forpliktelse til fortreffelighet. Med vår eksepsjonelle bilvasketjeneste sørger vi for at hver tomme av bilens interiør blir feilfritt rengjort og restaurert.",
+            "optHead": "Her er det som skiller vår bilvasktjeneste:",
             "points": [
-                "Utvendig vask",
-                "Innvendig vask",
-                "Motorvask",
-                "Innvendig rens",
-                "Lakkrens",
-                "Polering",
-                "Rens av matter, gummi etc"
+                "Ulastelig detaljering: Våre dyktige fagfolk rengjør og detaljerer omhyggelig bilens interiør, og tar hensyn til hver krok og krok. Fra dashbordet til seter, tepper og møbeltrekk fjerner vi skitt, flekker og lukt, og etterlater et friskt og innbydende miljø.",
+                "Premium-kvalitetsprodukter: Vi bruker kun de beste rengjøringsproduktene som er spesielt utviklet for bilinteriør. Produktene våre eliminerer effektivt smuss, skitt og allergener samtidig som de er skånsomme mot overflater, og sikrer en grundig, men trygg rengjøringsopplevelse for bilen din.",
+                "Overlegen omsorg for materialer: Enten bilens interiør har skinn, stoff eller andre materialer, skreddersyr vi vår rengjøringstilnærming deretter. Våre eksperter er utstyrt med kunnskap og ekspertise for å håndtere forskjellige overflater skånsomt, bevare kvaliteten og forlenge levetiden.",
+                "Lukt eliminering: Vi forstår viktigheten av et friskt-luktende interiør. Vår bilvasktjeneste inkluderer fjerning av ubehagelige lukter, som røyk, mat eller kjæledyrrelaterte lukter. Si farvel til uønskede dufter og nyt en ren og innbydende atmosfære hver gang du går inn i bilen.",
+                "Kundetilfredshet: Din tilfredshet er vår høyeste prioritet. Vi streber etter å yte eksepsjonell kundeservice, for å sikre at din bilvaskopplevelse overgår dine forventninger. Vårt mål er å gjøre deg fornøyd med den fornyede komforten og renheten til kjøretøyets interiør."
             ],
+            "conclusion": "Nyt luksusen til et perfekt rent bilinteriør med vår førsteklasses bilvasketjeneste. Avtal en avtale i dag og la oss gjenopprette kjøretøyets interiør til dets uberørte tilstand. Stol på Skøyen Bilpleie AS for en uovertruffen bilinnredningsopplevelse som vil heve kjøregleden din.",
             "image": "/images/invending-vask.webp",
             "price": [
                 "Liten bil fra 6000-",
@@ -63,16 +66,17 @@
         {
             "id": "s4",
             "name": "LAKKRENS / POLERING / LAKKFORSEGLING",
-            "desc": "Slipp løs utstrålingen: Opplev vår transformative service for forbedring av billakkering. Omhyggelig polering, beskyttende tetningsmasse og oppmerksomhet på detaljer får frem bilens sanne glans. Bestill nå og få bilen din til å skinne som aldri før.",
+            "descHead": "Slipp løs utstrålingen: Oppdag vår service for forbedring av billakkering",
+            "desc": "Velkommen til Skøyen Bilpleie AS, hvor vi tilbyr en transformativ billakkeringsforbedringstjeneste som forynger og beskytter kjøretøyets eksteriør. Vår Lakkrens/Polering/Lakkforsegling-tjeneste er designet for å få frem den sanne utstrålingen til bilens lakk, og sikre en fantastisk og langvarig finish.",
+            "optHead": "Her er grunnen til at vår billakkeringsforbedringstjeneste skiller seg ut:",
             "points": [
-                "Utvendig vask",
-                "Innvendig vask",
-                "Motorvask",
-                "Innvendig rens",
-                "Lakkrens",
-                "Polering",
-                "Rens av matter, gummi etc"
+                "Feilfri polering: Våre dyktige teknikere polerer omhyggelig bilens lakk, og fjerner ufullkommenheter som virvlemerker, lette riper og oksidering. Gjennom våre avanserte teknikker og førsteklasses produkter, gjenoppretter vi glansen og dybden til kjøretøyets lakk, slik at det ser utstillingsverdig ut.",
+                "Beskyttende fugemasse: Vi går lenger enn bare polering ved å påføre en malingsforsegling av høy kvalitet. Denne tetningsmassen fungerer som et skjold, og beskytter bilens lakk mot miljøfaktorer som UV-stråler, skitt og tøffe værforhold. Det forbedrer malingens holdbarhet, gjør det lettere å vedlikeholde og forlenger levetiden.",
+                "Forbedret glans: Vår Lakkrens/Polering/Lakkforsegling-tjeneste tar bilens glans til neste nivå. Den grundige poleringsprosessen kombinert med den beskyttende tetningsmassen resulterer i en dyp, skinnende finish som får hodene til å snu seg uansett hvor du går. Si farvel til matt og falmet lakk, og omfavn glansen til et virkelig revitalisert eksteriør.",
+                "Oppmerksomhet på detaljer: Vi er stolte av vår grundige oppmerksomhet på detaljer. Våre teknikere har et øye for perfeksjon og sørger for at hver tomme av bilens lakk får den pleien og behandlingen den fortjener. Vi nøyer oss ikke med noe mindre enn fortreffelighet når det gjelder å forbedre utseendet til kjøretøyet ditt.",
+                "Kundetilfredshet: Din tilfredshet er vår høyeste prioritet. Vi streber etter å levere en service for forbedring av billakk som overgår dine forventninger. Vårt kunnskapsrike personale er dedikert til å yte eksepsjonell kundeservice, for å sikre at du er fornøyd med resultatene og nyter en virkelig tilfredsstillende opplevelse."
             ],
+            "conclusion": "Slipp løs utstrålingen av bilens lakk med vår eksepsjonelle Lakkrens/Polering/Lakkforsegling-tjeneste. Bestill en time i dag og la oss avsløre den sanne skjønnheten til kjøretøyets eksteriør. Stol på Skøyen Bilpleie AS for en transformativ lakkforbedring som vil få bilen din til å skinne som aldri før.",
             "image": "/images/lakkrens-polering.webp",
             "price": [
                 "Liten bil fra 6000-",
@@ -83,16 +87,17 @@
         {
             "id": "s5",
             "name": "AROMATEK-BEHANDLING",
-            "desc": "Opplev duftopplevelsen: Prøv vår bil Aromatek-behandling. Skap en fortryllende atmosfære i bilen din med våre fengslende dufter. Bestill nå og nyt kjøreturen til det fulle.",
+            "descHead": "Skjem bort sansene dine: Oppdag vår Car Aromatek-behandling",
+            "desc": "Velkommen til Skøyen Bilpleie AS, hvor vi tilbyr en utsøkt bil Aromatek-behandling som løfter kjøreopplevelsen din til nye høyder. Vår spesialiserte tjeneste kombinerer aromatiske dufter med innovativ teknologi for å skape en fengslende og forfriskende atmosfære i kjøretøyet ditt.",
+            "optHead": "Her er det som gjør vår bil Aromatek-behandling ekstraordinær:",
             "points": [
-                "Utvendig vask",
-                "Innvendig vask",
-                "Motorvask",
-                "Innvendig rens",
-                "Lakkrens",
-                "Polering",
-                "Rens av matter, gummi etc"
+                "Fengende dufter: Fordyp deg i en verden av fengslende dufter som forvandler bilens interiør til en salig oase. Vårt nøye utvalgte utvalg av dufter er designet for å fremkalle en følelse av luksus, avslapning eller forfriskning, avhengig av dine preferanser. Skjem bort sansene dine og skap en personlig atmosfære som øker kjøregleden din.",
+                "Avansert teknologi: Aromatek-systemet vårt bruker banebrytende teknologi for å spre duftene jevnt gjennom hele bilens interiør. Enheten er designet for å sikre en konsistent og langvarig duftopplevelse, og gir deg en herlig aroma som henger behagelig under reisene dine.",
+                "Luktnøytralisering: I tillegg til å tilføre herlige dufter, nøytraliserer vår Aromatek-behandling effektivt ubehagelige lukter som mat, røyk eller kjæledyrrelaterte lukter. Si farvel til uønsket lukt og nyt et friskt og innbydende miljø hver gang du går inn i kjøretøyet.",
+                "Enkel å bruke og justerbar: Vårt Aromatek-system er brukervennlig og lar deg justere intensiteten på duften etter dine preferanser. Du har full kontroll over å skape den perfekte aromatiske atmosfæren som passer humøret ditt og forbedrer kjøreopplevelsen.",
+                "Kundetilfredshet: Din tilfredshet er vår høyeste prioritet. Vi streber etter å yte eksepsjonell kundeservice, for å sikre at din bil Aromatek behandling overgår dine forventninger. Vi ønsker å gjøre deg fornøyd med de fortryllende duftene og den foryngende atmosfæren som vår service bringer til bilens interiør."
             ],
+            "conclusion": "Skjem bort sansene dine med vår fengslende bil Aromatek-behandling. Bestill en time i dag og opplev en herlig blanding av dufter som vil forvandle kjøremiljøet ditt. Stol på Skøyen Bilpleie AS for en uovertruffen aromatisk reise som legger til et ekstra lag med luksus og komfort til bilen din.",
             "image": "/images/aromatek-behandling.webp",
             "price": [
                 "Liten bil fra 6000-",
@@ -103,16 +108,17 @@
         {
             "id": "s6",
             "name": "HJULSKIFT",
-            "desc": "Effektiv hjulskifttjeneste for din bil: Velkommen til [Firmanavn]. Vi tilbyr en pålitelig hjulskifttjeneste som er rask og praktisk. Våre erfarne teknikere sørger for trygg og nøyaktig montering av hjulene dine. Spar tid og stol på oss for et problemfritt hjulskifte. Bestill nå og kom raskt tilbake på veien.",
+            "descHead": "Smidig hjulskifttjeneste for bilen din",
+            "desc": "Velkommen til Skøyen Bilpleie AS, hvor vi tilbyr en praktisk og pålitelig hjulskifttjeneste for bilen din. Med vår ekspertise og profesjonelle tilnærming sørger vi for et raskt og problemfritt hjulskifte som holder deg trygg på veien.",
+            "optHead": "Her er hvorfor vår hjulskifttjeneste skiller seg ut:",
             "points": [
-                "Utvendig vask",
-                "Innvendig vask",
-                "Motorvask",
-                "Innvendig rens",
-                "Lakkrens",
-                "Polering",
-                "Rens av matter, gummi etc"
+                "Erfarne teknikere: Vårt team består av erfarne teknikere som har ekspertisen og kunnskapen som kreves for å utføre hjulskiftet effektivt. Vi tar vare på dine hjul og sikrer at de er riktig montert og balansert for optimal ytelse og sikkerhet.",
+                "Presis utstyr: Vi bruker avansert utstyr og verktøy for hjulskiftet, slik at vi kan håndtere ulike typer hjul og dekk. Vårt utstyr sikrer nøyaktig montering og balansering, noe som gir jevn kjøring og forlenger levetiden til hjulene dine.",
+                "Tidsbesparelse: Vi vet at tiden din er verdifull. Derfor jobber vi effektivt for å fullføre hjulskiftet raskt, slik at du kan komme tilbake på veien uten unødvendig forsinkelse. Vår målrettet service sikrer at du får en smidig og sømløs opplevelse.",
+                "Kvalitetssikring: Vi tar kvalitet på alvor og garanterer at hjulskiftet utføres med omhu og nøyaktighet. Din sikkerhet og tilfredshet er vårt fokus, og vi går aldri på kompromiss med kvaliteten på vårt arbeid.",
+                "Kundetilfredshet: Vi verdsetter våre kunder og streber etter å levere en førsteklasses hjulskifttjeneste som overgår forventningene dine. Vår vennlige og profesjonelle kundeservice sikrer at du føler deg velkommen og ivaretatt gjennom hele prosessen."
             ],
+            "conclusion": "Nyt bekvemmeligheten med vår hjulskifttjeneste for bilen din. Bestill time i dag og la oss sørge for at hjulene dine er klare for enhver kjøresituasjon. Stol på Skøyen Bilpleie AS for en pålitelig og effektiv hjulskiftopplevelse.",
             "image": "/images/hjulskift.webp",
             "price": [
                 "Liten bil fra 6000-",
@@ -123,16 +129,17 @@
         {
             "id": "s7",
             "name": "IMPREGNERING AV SKINNSETER",
-            "desc": "Bevar skjønnheten: Prøv vår skinnsete-impregnering. Beskytt dine skinnseter mot smuss, væsker og solskader. Bestill nå for langvarig skinnsetepleie.",
+            "descHead": "Beskytt dine skinnseter: Oppdag vår impregneringstjeneste",
+            "desc": "Velkommen til Skøyen Bilpleie AS, hvor vi tilbyr en spesialisert impregneringstjeneste for skinnsetene i bilen din. Vårt mål er å bevare skinnsetenes skjønnhet og forlenge deres levetid ved å gi dem en grundig beskyttelse mot smuss, væsker og solskader.",
+            "optHead": "Her er hvorfor vår impregneringstjeneste for skinnseter skiller seg ut:",
             "points": [
-                "Utvendig vask",
-                "Innvendig vask",
-                "Motorvask",
-                "Innvendig rens",
-                "Lakkrens",
-                "Polering",
-                "Rens av matter, gummi etc"
+                "Profesjonell behandling: Vårt team består av erfarne fagfolk som er spesialisert på behandling av skinnseter. Vi bruker skånsomme og effektive metoder for å rengjøre setene grundig før vi påfører impregneringsmiddelet, slik at de er klare for optimal beskyttelse.",
+                "Kvalitetsimpregneringsmiddel: Vi bruker kun høykvalitets impregneringsmidler som er spesialdesignet for skinnseter. Disse produktene skaper en usynlig beskyttende barriere som hindrer inntrengning av væsker, flekker og smuss, samtidig som de opprettholder setenes mykhet og naturlige glans.",
+                "Langvarig beskyttelse: Vår impregneringstjeneste gir langvarig beskyttelse for skinnsetene dine. Det bidrar til å forhindre bleking, sprukne seter og tidlig slitasje forårsaket av solens skadelige stråler og daglig bruk. Med riktig impregnering kan du nyte velpleide og motstandsdyktige skinnseter i lang tid.",
+                "Enkel vedlikehold: Impregnerte skinnseter er enklere å vedlikeholde. De er mindre mottagelige for flekker og smuss, og du kan enkelt tørke dem av med en fuktig klut for å holde dem rene og friske. Dette sparer deg for tid og innsats med hyppig rengjøring.",
+                "Kundetilfredshet: Vi setter kundetilfredshet i høysetet og streber etter å levere en førsteklasses impregneringstjeneste som overgår forventningene dine. Vår dedikerte kundeservice sikrer at du får den oppmerksomheten og omsorgen du fortjener gjennom hele prosessen."
             ],
+            "conclusion": "Beskytt dine dyrebare skinnseter med vår profesjonelle impregneringstjeneste. Bestill time i dag og la oss sørge for at skinnsetene i bilen din forblir vakre og beskyttede i lang tid. Stol på Skøyen Bilpleie AS for en pålitelig og skreddersydd behandling av skinnseter.",
             "image": "/images/hjulskift.webp",
             "price": [
                 "Liten bil fra 6000-",
@@ -143,16 +150,17 @@
         {
             "id": "s8",
             "name": "LYKTESLIPING",
-            "desc": "Gjenoppliv billysene: Prøv vår lykteslipingtjeneste. Få klarere og tryggere lys med vår profesjonelle behandling. Bestill nå for forbedret sikt og sikkerhet.",
+            "descHead": "Gjenoppliv lysene dine: Oppdag vår lykteslipingtjeneste",
+            "desc": "Velkommen til Skøyen Bilpleie AS, hvor vi tilbyr en profesjonell lykteslipingtjeneste som gir nytt liv til dine billys. Med vår ekspertise og avanserte utstyr sørger vi for at dine lykter blir klare, klare og sikre.",
+            "optHead": "Her er hvorfor vår lykteslipingtjeneste skiller seg ut:",
             "points": [
-                "Utvendig vask",
-                "Innvendig vask",
-                "Motorvask",
-                "Innvendig rens",
-                "Lakkrens",
-                "Polering",
-                "Rens av matter, gummi etc"
+                "Fagmessig utførelse: Vårt erfarne team har spesialisert kunnskap og erfaring innen lyktesliping. Vi tar oss av dine lykter med grundighet og presisjon, og fjerner slitasje, riper og misfarging for å gjenopprette deres originale klarhet.",
+                "Avansert utstyr: Vi bruker moderne utstyr og slipeteknikker for å oppnå optimal resultat. Vårt utstyr er skånsomt mot lykteoverflaten og gir jevn og jevn sliping for et imponerende sluttresultat.",
+                "Økt sikkerhet: Slitte og uklare lykter reduserer synligheten og sikkerheten på veien. Vår lykteslipingtjeneste bidrar til å forbedre lysstyrken og rekkevidden på lysene dine, slik at du får bedre sikt og økt sikkerhet under kjøringen.",
+                "Tidsbesparelse: Ved å velge vår lykteslipingtjeneste sparer du tid og penger sammenlignet med å erstatte hele lyktesettet. Vi gir dine eksisterende lykter nytt liv, slik at du kan fortsette å nyte deres optimale funksjonalitet uten å måtte investere i nye.",
+                "Kundetilfredshet: Vi er opptatt av å levere enestående kundeservice og sikre din totale tilfredshet. Vi tar oss tid til å forstå dine behov og sørger for at resultatet av vår lykteslipingtjeneste oppfyller eller overgår forventningene dine."
             ],
+            "conclusion": "Gjenoppliv lysene dine med vår profesjonelle lykteslipingtjeneste. Bestill time i dag og la oss gi dine lykter et nytt utseende og forbedret funksjonalitet. Stol på Skøyen Bilpleie AS for en pålitelig og skreddersydd behandling av dine billys.",
             "image": "/images/hjulskift.webp",
             "price": [
                 "Liten bil fra 6000-",
@@ -163,16 +171,18 @@
         {
             "id": "s9",
             "name": "ANDRE TJENESTER / PRISLISTE",
-            "desc": "Mangfoldige tjenester til konkurransedyktige priser. Velg blant vår prisliste for profesjonelle bilrelaterte tjenester som vask, polering, hjulskift, impregnering og mer. Få kvalitet og verdi for pengene dine hos [Firmanavn]. Kontakt oss i dag for mer informasjon.",
+            "descHead": "Mangfoldige tjenester til konkurransedyktige priser",
+            "desc": "Velkommen til Skøyen Bilpleie AS, hvor vi tilbyr et bredt spekter av profesjonelle bilrelaterte tjenester til konkurransedyktige priser. Vår prisliste gir deg oversikt over våre ulike tjenester som er designet for å møte dine behov og forbedre kjøreopplevelsen din.",
+            "optHead": "Våre tjenester inkluderer, men er ikke begrenset til:",
             "points": [
-                "Utvendig vask",
-                "Innvendig vask",
-                "Motorvask",
-                "Innvendig rens",
-                "Lakkrens",
-                "Polering",
-                "Rens av matter, gummi etc"
+                "Eksteriør- og interiørvask: Gi bilen din en omfattende rengjøring både innvendig og utvendig for å få den til å skinne som ny.",
+                "Polering og voksing: Bevar lakken og gi bilen din en glansfull finish med vår polering og voksbehandling.",
+                "Lakkforsegling: Beskytt bilens lakk mot vær og slitasje med vår lakkforseglingstjeneste.",
+                "Hjulskift og dekkbehandling: Vi tar oss av hjulskiftet og tilbyr dekkbehandling for å sikre optimal ytelse og sikkerhet.",
+                "Impregnering av skinnseter: Beskytt skinnsetene dine mot flekker og slitasje med vår skinnimpregneringstjeneste.",
+                "Lyktesliping: Gjenoppliv lyktene dine og forbedre sikt og sikkerhet med vår profesjonelle lykteslipingtjeneste."
             ],
+            "conclusion": "Vår prisliste gir deg en oversikt over prisene for hver tjeneste, slik at du kan velge det som passer best for deg og din bil. Vi er forpliktet til å levere høy kvalitet og god verdi for pengene dine. Kontakt oss i dag for å få mer informasjon om våre tjenester og priser. Vi ser frem til å betjene deg og sørge for at din bil får den omsorgen den fortjener.",
             "image": "/images/hjulskift.webp",
             "price": [
                 "Liten bil fra 6000-",
@@ -183,16 +193,17 @@
         {
             "id": "s10",
             "name": "OM OSS",
+            "descHead": "Velkommen til Skøyen Bilpleie AS, din pålitelige partner for bilpleie og vedlikehold.",
             "desc": "",
+            "optHead": "",
             "points": [
-                "Utvendig vask",
-                "Innvendig vask",
-                "Motorvask",
-                "Innvendig rens",
-                "Lakkrens",
-                "Polering",
-                "Rens av matter, gummi etc"
+                "Vi er et dedikert team av bilentusiaster og fagfolk som brenner for å levere førsteklasses service og omsorg til din bil. Med vår omfattende kunnskap, erfaring og lidenskap for biler, streber vi etter å oppfylle alle dine bilrelaterte behov.",
+                "Vår misjon er å gi deg enestående kundeservice og skreddersydde løsninger som passer dine spesifikke krav. Vi bruker avanserte teknikker, toppmoderne utstyr og kvalitetsprodukter for å sikre at din bil får den beste behandlingen den fortjener.",
+                "Uansett om det dreier seg om en enkel bilvask, en grundig polering, hjulskift, lakkforsegling eller andre spesialiserte tjenester, er vi her for å møte og overgå forventningene dine. Vi tar vare på bilens utseende, ytelse og lang levetid.",
+                "Vi verdsetter tilliten du har vist oss ved å velge oss som din foretrukne bilpleieleverandør. Vi er opptatt av å bygge sterke og langvarige relasjoner med våre kunder, og vi er stolte av den positive tilbakemeldingen vi har fått.",
+                "Kontakt oss i dag for å oppdage forskjellen med Skøyen Bilpleie AS. La oss ta hånd om bilen din og gi den den ekspertisen og omsorgen den fortjener. Vi ser frem til å betjene deg og gjøre din bilopplevelse enda bedre."
             ],
+            "conclusion": "",
             "image": "/images/hjulskift.webp",
             "price": [
                 "Liten bil fra 6000-",
@@ -203,16 +214,17 @@
         {
             "id": "s11",
             "name": "INNVENDIG RENS",
-            "desc": "",
+            "descHead": "Opplev renheten fra innsiden: Prøv vår innvendige rensingstjeneste",
+            "desc": "Velkommen til Skøyen Bilpleie AS, hvor vi tilbyr en grundig innvendig rensingstjeneste for bilen din. Vårt erfarne team er dedikert til å skape et friskt og behagelig interiør i bilen din.",
+            "optHead": "Her er hvorfor vår innvendige rensingstjeneste skiller seg ut:",
             "points": [
-                "Utvendig vask",
-                "Innvendig vask",
-                "Motorvask",
-                "Innvendig rens",
-                "Lakkrens",
-                "Polering",
-                "Rens av matter, gummi etc"
+                "Dyptgående rengjøring: Vi utfører en omfattende rengjøring av alle interiørdetaljer, inkludert seter, tepper, gulv, dørpaneler og dashbord. Vi fjerner smuss, flekker og lukt for å gi deg et rent og fresht interiør.",
+                "Skånsomme og effektive produkter: Vi bruker skånsomme og høykvalitets rengjøringsprodukter som er skreddersydd for å ta vare på bilens materialer. Dette sikrer at rengjøringen er grundig samtidig som det beskytter overflatene.",
+                "Lukteliminering: Vi tar tak i uønsket lukt i bilen ved å bruke spesialiserte teknikker og produkter. Dette etterlater en frisk og behagelig duft i interiøret.",
+                "Forbedret kjøreopplevelse: Et rent og velstelt interiør bidrar til å forbedre din generelle kjøreopplevelse. Du vil nyte komforten og trivselen som et rent interiør gir.",
+                "Dedikert kundeservice: Kundetilfredshet er vår prioritet, og vi streber etter å levere enestående service. Vårt vennlige team vil ta seg av dine spesifikke behov og sikre at du får den beste opplevelsen."
             ],
+            "conclusion": "Gjør bilens interiør til et friskt og innbydende sted med vår profesjonelle innvendige rensingstjeneste. Bestill time i dag og opplev renheten og komforten som kommer med et velpleiet interiør. Stol på Skøyen Bilpleie AS for en pålitelig og skreddersydd behandling av bilens innside.",
             "image": "/images/hjulskift.webp",
             "price": [
                 "Liten bil fra 6000-",

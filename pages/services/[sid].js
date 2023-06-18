@@ -70,10 +70,13 @@ export default function ServiceDetailPage(props) {
         <section className='w-11/12 mx-auto flex flex-wrap justify-between py-12 font-ubuntu'>
             <div className="w-[48%] max-[480px]:w-full max-[480px]:mb-4 ">
                 <h1 className="text-3xl text-red-600 font-bold">{loadedService.name}</h1>
-                {loadedService.desc.length === 0 ? <ul className="my-3 text-slate-700 list-disc list-inside">
-                    {loadedService.points.map((point) => (<li key={point}>{point}</li>))}
-                </ul> : <p className="my-3 text-slate-700">{loadedService.desc}</p>}
+                <h3 className="my-3 text-slate-700 text-lg font-semibold">{loadedService.descHead}</h3>
+                <p className="mt-3 mb-8 text-slate-700">{loadedService.desc}</p>
                 <Image src={loadedService.image} width={0} height={0} alt='Service Image' sizes="100vw" style={{ width: '100%', height: 'auto' }} />
+                <h3 className="mb-3 mt-8 text-slate-700 font-semibold">{loadedService.optHead}</h3>
+                <ol className="my-3 text-slate-700 list-decimal list-inside">
+                    {loadedService.points.map((point) => (<li key={point} className="mb-2">{point}</li>))}
+                </ol>
                 <h1 className="text-3xl text-red-600 font-bold mt-3">Pris</h1>
                 <ul className="list-disc list-inside my-3 text-slate-700">
                     {loadedService.price.map(price => (<li key={price}>{price}</li>))}

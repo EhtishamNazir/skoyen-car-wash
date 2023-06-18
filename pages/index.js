@@ -57,9 +57,7 @@ export default function HomePage(props) {
             <Image src={service.image} alt='Service Image' width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} />
             <div className="services-item-text px-4 py-6">
               <h3 className="text-center text-2xl font-bold text-red-600 mb-2">{service.name}</h3>
-              {service.desc.length === 0 ? <ul className='text-center'>
-                {service.points.slice(0, 3).map((point) => (<li key={point}>{point}</li>))}
-              </ul> : <p className="text-center">{service.desc.substring(0, 100)}</p>}
+              <p className="text-center">{service.desc.substring(0, 100)}</p>
               <p className="text-center mt-6">
                 <Link href={`/services/${service.id}`} className="bg-red-600 py-3 px-8 text-white rounded">Lære mer</Link>
               </p>
